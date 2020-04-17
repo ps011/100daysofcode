@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Location Info App</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    let map, infoWindow;
+    function initMap(latitude = 18.5213051, longitude = 73.8501169) {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: (latitude), lng: (longitude)},
+            zoom: 8
+        });
+    }
+
+    async function fetchLocationData() {
+    const result = await fetch('https://ipapi.co/json')
+    return  await result.json()
+    }
+
+    async function fetchWeatherData(cityName) {
+        const result = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=109453dd8e54d43640dda002d6f9f096`)
+        return await result.json()
+    }
+
+    function setDataToInfoWindow(weather, location) {
+        const content = `
+        <div class="card">
+
+        <h2>${weather.name}</h2>
+        <h3>${weather.weather[0].main}</h3>
+        <span>Wind Speed ${weather.wind.speed} <span class="dot">•</span> Feels Like: ${(weather.main.feels_like - 273.15).toFixed(2)}°</span>
+        <h1>${(weather.main.temp - 273.15).toFixed(1)}°</h1>
+        <div class="sky">
+            <img src="http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png"
+        </div>
+    </div>`
+
+    infoWindow = new google.maps.InfoWindow({
+        content
+    });
+    const marker = new google.maps.Marker({
+        position: {lat: (location.latitude), lng: (location.longitude)},
+        map,
+        title: location.city
+    });
+        infoWindow.open(map, marker);
+    marker.addListener('click', function() {
+        infoWindow.close()
+    });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+        const locationData = await fetchLocationData();
+        const weatherData = await fetchWeatherData(locationData.city)
+        initMap(locationData.latitude, locationData.longitude)
+        setDataToInfoWindow(weatherData, locationData)
+    })
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1_xpnmXagnm0WN3krGUVDRvBc2l5cH8c&callback=initMap"
+        async defer></script>
+</body>
+</html>
