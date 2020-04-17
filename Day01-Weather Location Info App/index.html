@@ -26,7 +26,7 @@
     }
 
     async function fetchWeatherData(cityName) {
-        const result = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=109453dd8e54d43640dda002d6f9f096`)
+        const result = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=109453dd8e54d43640dda002d6f9f096`)
         return await result.json()
     }
 
