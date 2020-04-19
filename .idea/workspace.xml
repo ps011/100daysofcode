@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/Day03-Superhero Store/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+              <caret line="114" column="143" lean-forward="true" selection-start-line="114" selection-start-column="143" selection-end-line="114" selection-end-column="143" />
             </state>
           </provider>
         </entry>
@@ -162,12 +162,12 @@
       <workItem from="1587072054535" duration="1618000" />
       <workItem from="1587103994900" duration="13276000" />
       <workItem from="1587199444767" duration="11681000" />
-      <workItem from="1587319485231" duration="1157000" />
+      <workItem from="1587319485231" duration="1211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27732000" />
+    <option name="totallyTimeSpent" value="27786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -273,7 +273,7 @@
     <entry file="file://$PROJECT_DIR$/Day03-Superhero Store/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <caret line="114" column="143" lean-forward="true" selection-start-line="114" selection-start-column="143" selection-end-line="114" selection-end-column="143" />
         </state>
       </provider>
     </entry>
