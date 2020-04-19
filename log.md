@@ -1,3 +1,15 @@
+### Day 3: Sunday, 19th April 2020 
+
+**Goal**: Build and HTML5 Carousel using html css and javascript. Use an API to populate data in it. 
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the order property in flexbox and designed a carousel using that. Used the marvels API as well to populate data.
+
+**Links to work:** 
+1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+
 ### Day 2: Saturday, 18th April 2020 
 
 **Goal**: Build and HTML5 Form with a progressbar that should update as user enters valid values in the form. 

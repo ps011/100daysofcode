@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Heros' Store</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class='main'>
+    <div class='slider-container'>
+        <div class='slider'>
+            <ul>
+            </ul>
+            <div class='slider-nav'>
+                <div class='prev'></div>
+                <div class='next'></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="detail-container">
+
+    </div>
+</div>
+
+
+
+<script>
+
+    // Carousel Related Functions
+    let slider = document.querySelector('.slider');
+    let slides = document.querySelectorAll('li');
+    let previous = document.querySelector('.prev');
+    let nextBtn = document.querySelector('.next');
+    letsliderLength = slider.querySelectorAll('li').length;
+    const PRIV_KEY = 'fe8ec1d9216c2b64c1f73dac33bd43b355dc9f95';
+    const PUBLIC_KEY = 'dad8b870cc5e4625bade44e71729a9ee';
+    const ul = document.querySelector('ul');
+    const detailsContainer = document.querySelector('.detail-container');
+    let result;
+    async function init() {
+        await getMarvelResponse()
+        slider = document.querySelector('.slider');
+        slides = document.querySelectorAll('li');
+        previous = document.querySelector('.prev');
+        nextBtn = document.querySelector('.next');
+        slides.forEach((slide, index) => {
+            slide.style.order = index+1;
+        })
+    }
+
+    function resetPos() {
+        slides.forEach(slide => {
+        slide.classList.remove('transition');
+        slide.classList.remove('left', 'right');
+        })
+    }
+
+    previous.addEventListener('click', (e) => {
+        slides.forEach(slide => {
+            slide.classList.add('transition', 'right');
+        })
+        setTimeout(function(){
+            prev();
+            resetPos();
+        }, 250);
+    })
+
+    nextBtn.addEventListener('click', (e) => {
+        slides.forEach(slide => {
+            slide.classList.add('transition', 'left');
+        })
+        setTimeout(function(){
+            next();
+            resetPos();
+        }, 250);
+    })
+
+    function prev() {
+       slides.forEach(slide => {
+           let curPos = parseInt(slide.style.order)
+            if (curPos < sliderLength) {
+                slide.style.order = curPos+1
+            }
+            else {
+                curPos = 1;
+                slide.style.order = curPos
+            }
+        });
+    }
+
+    function next() {
+        slides.forEach(slide => {
+        let curPos = parseInt(slide.style.order)
+        if (curPos > 1) {
+            slide.style.order = curPos-1
+        }
+        else {
+            curPos = slides.length;
+            slide.style.order = curPos
+        }
+         });
+    }
+
+    // API Related functions
+
+    async function getMarvelResponse() {
+
+        var ts = new Date().getTime();
+        var hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
+        var url = `http://gateway.marvel.com:80/v1/public/characters?limit=5&orderBy=-modified&ts=${ts}&apikey=${PUBLIC_KEY}&hash=${hash}`;
+
+        console.log(url);
+        result = await fetch(url);
+        result = await result.json();
+        result = result.data.results;
+        ul.innerHTML = result.map((superhero, index) => {
+            console.log(superhero.name)
+            if (superhero.description && !superhero.thumbnail.path.includes('available')) {
+                return `
+                <li  onclick="populateDetails(event, ${index})">
+                     <div class="card">
+                        <img src=${superhero.thumbnail.path + '/standard_fantastic.' + superhero.thumbnail.extension} alt="Super Hero Image" style="width:100%">
+                        <h1>${superhero.name}</h1>
+                        <p class="title">${superhero.description}</p>
+                    </div>
+                </li>
+            `
+            } else {
+                return '';
+            }
+        }).join('');
+    };
+
+    function populateDetails (e, index) {
+
+        console.log(result[index])
+        detailsContainer.innerHTML = `
+        <div class="profile-picture">
+            <img src=${result[index].thumbnail.path + '/standard_fantastic.' + result[index].thumbnail.extension}>
+        </div>
+        <div class="name">
+            <p>${result[index].name}</p>
+        </div>
+        <div class="stats">
+            <div class="followers">
+                <p>Comics</p>
+                <h1>${result[index].comics.available}</h1>
+            </div>
+            <div class="following">
+                <p>Series</p>
+                <h1>${result[index].series.available}</h1>
+            </div>
+            <div class="topics">
+                <p>Stories</p>
+                <h1>${result[index].stories.available}</h1>
+            </div>
+            <div class="topics">
+                <p>Events</p>
+                <h1>${result[index].events.available}</h1>
+            </div>
+        </div>
+        `
+    }
+
+    document.addEventListener('DOMContentLoaded', async() => await init())
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+</body>
+</html>

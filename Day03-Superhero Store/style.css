@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background: #454545;
+}
+
+.slider {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+}
+
+li {
+    cursor: pointer;
+    position: relative;
+    width: 33.33333%;
+    height: 100%;
+    color: #fff;
+    padding: 8px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    /*font-size: 300px;*/
+    flex-shrink: 0;
+}
+
+.slider-nav .prev,
+.slider-nav .next {
+    position: absolute;
+    background: slategrey;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.slider-nav .prev {
+    left: 0;
+}
+.slider-nav .next {
+    right: 0;
+}
+
+.transition {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .25s ease;
+    transition: transform .25s ease, -webkit-transform .25s ease;
+}
+
+.left {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.right {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+
+/*Card*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 16px;
+    background: white;
+}
+
+.title {
+    color: grey;
+    font-size: 14px;
+    overflow-y: scroll;
+    padding: 8px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+h1 {
+    color: black
+}
+
+img {
+    border-radius: 6% 6% 60% 0;
+}
+
+
+.detail-container {
+    text-align: center;
+    margin: 64px auto auto;
+    background: white;
+}
+.profile-picture img {
+    border-radius: 100%;
+    margin-top: -60px;
+    border: 4px solid white;
+}
+
+.container-body {
+    padding-left: 20px;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.location {
+    color: gray;
+    margin: -10px;
+}
+
+.bio p {
+    padding: 10px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stats p {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: -15px;
+    text-transform: uppercase;
+}
+
+.followers {
+    padding-right: 60px;
+}
+
+
+.following {
+    padding-right: 60px;
+}
+
+.topics {
+    padding-right: 60px;
+}
