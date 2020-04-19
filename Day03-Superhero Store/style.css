@@ -44,12 +44,15 @@ li {
 .slider-nav .prev,
 .slider-nav .next {
     position: absolute;
-    background: slategrey;
-    height: 40px;
-    width: 40px;
+    background: slategray;
+    height: 60px;
+    width: 60px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 61px;
 }
 .slider-nav .prev {
     left: 0;
