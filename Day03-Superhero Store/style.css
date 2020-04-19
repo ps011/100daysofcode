@@ -53,6 +53,7 @@ li {
     text-align: center;
     vertical-align: middle;
     font-size: 61px;
+    cursor: pointer;
 }
 .slider-nav .prev {
     left: 0;
