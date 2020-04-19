@@ -13,6 +13,7 @@
     <div class='slider-container'>
         <div class='slider'>
             <ul>
+                <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
             </ul>
             <div class='slider-nav'>
                 <div class='prev'> < </div>
@@ -111,7 +112,7 @@
 
         var ts = new Date().getTime();
         var hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
-        var url = `http://gateway.marvel.com:80/v1/public/characters?limit=100&orderBy=-modified&ts=${ts}&apikey=${PUBLIC_KEY}&hash=${hash}`;
+        var url = `https://gateway.marvel.com:80/v1/public/characters?limit=100&orderBy=-modified&ts=${ts}&apikey=${PUBLIC_KEY}&hash=${hash}`;
 
         console.log(url);
         result = await fetch(url);
