@@ -1,3 +1,15 @@
+### Day 4: Monday, 20th April 2020 
+
+**Goal**: Build and HTML5 Accordion using html css and javascript.
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the `background` and `transition` property of css and designed an accordion using that.
+
+**Links to work:** 
+1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+
 ### Day 3: Sunday, 19th April 2020 
 
 **Goal**: Build and HTML5 Carousel using html css and javascript. Use an API to populate data in it. 
@@ -5,7 +17,7 @@
 
 **Today's Progress**: Completed the webpage and deployed it on github pages
 
-**Thoughts:** Learnt about the order property in flexbox and designed a carousel using that. Used the marvels API as well to populate data.
+**Thoughts:** Learnt about the `order` property in flexbox and designed a carousel using that. Used the marvels API as well to populate data.
 
 **Links to work:** 
 1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)

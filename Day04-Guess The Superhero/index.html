@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>GUESS The Superhero !!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <button class="accordion" id="one"></button>
+    <div class="panel">
+    <img src="images/1.jpg">
+    </div>
+
+    <button class="accordion" id="two"></button>
+    <div class="panel">
+        <img src="images/2.jpg">
+    </div>
+
+    <button class="accordion" id="three"></button>
+    <div class="panel">
+        <img src="images/3.jpg">
+    </div>
+
+    <button class="accordion" id="four"></button>
+    <div class="panel">
+        <img src="images/4.jpg">
+    </div>
+
+    <button class="accordion" id="five"></button>
+    <div class="panel">
+        <img src="images/5.jpg">
+    </div>
+
+    <button class="accordion" id="six"></button>
+    <div class="panel">
+        <img src="images/6.jpg">
+    </div>
+
+    <button class="accordion" id="seven"></button>
+    <div class="panel">
+        <img src="images/7.jpg">
+    </div>
+
+    <button class="accordion" id="eight"></button>
+    <div class="panel">
+        <img src="images/8.jpg">
+    </div>
+
+    <button class="accordion" id="nine"></button>
+    <div class="panel">
+        <img src="images/9.jpg">
+    </div>
+
+    <button class="accordion" id="ten"></button>
+    <div class="panel">
+        <img src="images/10.jpg">
+    </div>
+</div>
+
+
+<script>
+    const accordions = document.querySelectorAll('.accordion');
+    function expandAccordion(e) {
+        const panel = e.target.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            e.target.style.backgroundPositionY = "center";
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            e.target.style.backgroundPositionY = "top";
+        }
+    }
+
+    accordions.forEach(accordion => {
+        accordion.addEventListener('click', (e) => expandAccordion(e))
+    });
+</script>
+</body>
+</html>
