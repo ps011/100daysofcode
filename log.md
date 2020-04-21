@@ -1,3 +1,16 @@
+### Day 5: Tuesday, 21st April 2020 
+
+**Goal**: Build a Quiz App using HTML, vanilla JS and Open Trivia API
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the Open Trivia API.
+
+**Links to work:** 
+1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+
+
 ### Day 4: Monday, 20th April 2020 
 
 **Goal**: Build and HTML5 Accordion using html css and javascript.

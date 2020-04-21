@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<h1 style="text-align: center">Welcome to Quiz Time</h1>
+<div style="margin: auto; width: 30%;background: blue;padding: 16px; border-radius: 10px">
+<h5 style="text-align: center; ">Rules</h5>
+<ul>
+    <li>Quiz will contain 10 questions</li>
+    <li>You will see your score only when you answer all the questions</li>
+</ul>
+</div>
+<div class="quiz">
+        <div class="loadingio-spinner-bean-eater-f3o7ywws5y"><div class="ldio-r9ouawwx6m8">
+            <div><div></div><div></div><div></div></div><div><div></div><div></div><div></div></div>
+        </div></div>
+</div>
+
+</body>
+
+<script>
+    const container = document.querySelector('.quiz');
+    let options;
+    let correctAnswers;
+    let userAnswers;
+    let data;
+    let score = {score: 0, results: []};
+    let attemptedQuestions = 0;
+    const limit = 10;
+    async function getQuestions() {
+        data = await fetch(`https://opentdb.com/api.php?amount=${limit}&category=9&difficulty=medium&type=boolean`);
+        data = await data.json();
+        data = data.results;
+        container.innerHTML = data.map((question, index )=> {
+            return `
+<div class="container">
+            <h2 class="question" data-index=${index}>${question.question}</h2>
+        <div class="options">
+            <button class="true" onclick="checkAnswer('True', ${index})">True</button>
+            <button class="false" onclick="checkAnswer('False', ${index})">False</button>
+        </div>
+        <span class="correct-answer"></span>
+        <span class="user-answer"></span>
+</div>`
+        }).join('')
+        options = document.querySelectorAll('.options');
+        correctAnswers = document.querySelectorAll('.correct-answer');
+        userAnswers = document.querySelectorAll('.user-answer');
+    }
+
+    function checkAnswer(option, index) {
+        if (data[index].correct_answer === option) {
+            score.score+=1;
+        }
+        score.results[index] = option;
+        disableQuestion(index);
+        attemptedQuestions+=1;
+        if (attemptedQuestions === limit) {
+            correctAnswers.forEach((answer, index) => {
+                answer.innerHTML = `The correct answer is ${data[index].correct_answer}`
+            })
+            userAnswers.forEach((user, index) => {
+                user.innerHTML = `Your answer was ${score.results[index]}`
+            })
+            alert(`Your score is: ${score.score}`)
+        }
+    }
+
+    function disableQuestion(index) {
+        console.log(options[index].querySelectorAll('button'));
+       options[index].querySelectorAll('button').forEach(button => {
+           button.setAttribute('disabled', true);
+       })
+    }
+
+    document.addEventListener('DOMContentLoaded', getQuestions)
+</script>
+</html>
