@@ -1,3 +1,15 @@
+### Day 5: Wednesday, 22nd April 2020 
+
+**Goal**: Build a Travel Timeline page using AOS
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the AOS library and css properties
+
+**Links to work:** 
+1. [Travel Timeline](https://ps011.github.io/100daysofcode/)
+
 ### Day 5: Tuesday, 21st April 2020 
 
 **Goal**: Build a Quiz App using HTML, vanilla JS and Open Trivia API
@@ -8,7 +20,7 @@
 **Thoughts:** Learnt about the Open Trivia API.
 
 **Links to work:** 
-1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+1. [Quiz Time](https://ps011.github.io/100daysofcode/)
 
 
 ### Day 4: Monday, 20th April 2020 
@@ -21,7 +33,7 @@
 **Thoughts:** Learnt about the `background` and `transition` property of css and designed an accordion using that.
 
 **Links to work:** 
-1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+1. [Guess the Superhero](https://ps011.github.io/100daysofcode/)
 
 ### Day 3: Sunday, 19th April 2020 
 
@@ -33,7 +45,7 @@
 **Thoughts:** Learnt about the `order` property in flexbox and designed a carousel using that. Used the marvels API as well to populate data.
 
 **Links to work:** 
-1. [Form with ProgressBar](https://ps011.github.io/100daysofcode/)
+1. [Superhero Carousel](https://ps011.github.io/100daysofcode/)
 
 ### Day 2: Saturday, 18th April 2020 
 

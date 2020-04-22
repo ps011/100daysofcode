@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    background-image: url('./images/background.png');
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.line {
+    width: 5px;
+    height: 100%;
+    min-height: 100vh;
+    background: black;
+    position: absolute;
+    top: 85px;
+    left: 55%;
+    z-index: 10;
+    overflow: auto;
+}
+
+.node {
+    height: 140px;
+    width: 40%;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.node-left {
+    margin-left: 10%;
+}
+
+.node-right {
+    margin-left: 63%;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+
+@media (min-width: 767px) {
+    .line {
+        left: 50%;
+    }
+    .node {
+        width: 40%;
+        height: 240px;
+    }
+    .node-left {
+        margin-left: 8%;
+    }
+
+    .node-right {
+        margin-left: 53%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .node {
+        height: 360px;
+    }
+}

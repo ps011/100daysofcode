@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/images/image9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day06-Travel Diary/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/day6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,49 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day05-Quiz Time/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+            <state relative-caret-position="398">
+              <caret line="154" column="41" lean-forward="true" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day05-Quiz Time/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -83,11 +65,16 @@
       <find>http://ecx.images-amazon.com/images/I/31qJgKmg8vL.jpg</find>
       <find>qty</find>
       <find>Lorem Ipsum</find>
+      <find>&lt;/div&gt;</find>
+      <find>photos/200</find>
+      <find>https://picsum.photos/400</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
       <replace>&lt;input class=&quot;form-control&quot;</replace>
       <replace>&lt;img src=&quot;images/1.jpg&quot;&gt;</replace>
+      <replace>photos/400</replace>
+      <replace>./images/image1.JPG</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -106,9 +93,12 @@
         <option value="$PROJECT_DIR$/Day04-Product Page/products.json" />
         <option value="$PROJECT_DIR$/Day04-Product Page/style.css" />
         <option value="$PROJECT_DIR$/Day04-Product Page/index.html" />
-        <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day05-Quiz Time/index.html" />
         <option value="$PROJECT_DIR$/Day05-Quiz Time/style.css" />
+        <option value="$PROJECT_DIR$/Day06-Travel Diary/index.html" />
+        <option value="$PROJECT_DIR$/Day06-Travel Diary/style.css" />
+        <option value="$PROJECT_DIR$/Day06-Travel Diary/images/back.svg" />
+        <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -125,10 +115,13 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="x" value="726" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -155,7 +148,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day06-Travel Diary/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -168,6 +161,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day06-Travel Diary/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -198,12 +194,12 @@
       <workItem from="1587103994900" duration="13276000" />
       <workItem from="1587199444767" duration="11681000" />
       <workItem from="1587319485231" duration="1484000" />
-      <workItem from="1587358957524" duration="23826000" />
+      <workItem from="1587358957524" duration="34188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51885000" />
+    <option name="totallyTimeSpent" value="62247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -317,20 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day05-Quiz Time/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="45">
+          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -346,10 +332,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day06-Travel Diary/images/image10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06-Travel Diary/images/back.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06-Travel Diary/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day06-Travel Diary/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+        <state relative-caret-position="398">
+          <caret line="154" column="41" lean-forward="true" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

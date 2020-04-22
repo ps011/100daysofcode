@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Prasheel's Travel Diary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+<h1 style="text-align: center"> My Travel Timeline</h1>
+<div class="line"></div>
+<div data-aos="fade-up-right" class="node node-left">
+    <img class="photo" src="./images/image1.JPG" />
+</div>
+<div data-aos="fade-up-left" class="node node-right">
+    <img class="photo" src="./images/image2.jpeg" />
+</div>
+<div data-aos="flip-right" class="node node-left"><img class="photo" src="./images/image3.JPG" />
+</div>
+<div data-aos="flip-left" class="node node-right"><img class="photo" src="./images/image4.jpg" />
+</div>
+<div data-aos="fade-up-right" class="node node-left"><img class="photo" src="./images/image5.jpg" />
+</div>
+<div data-aos="fade-up-left" class="node node-right"><img class="photo" src="./images/image6.jpg" />
+</div>
+<div data-aos="fade-up-right" class="node node-left"><img class="photo" src="./images/image7.jpg" />
+</div>
+<div data-aos="fade-up-left" class="node node-right"><img class="photo" src="./images/image8.jpeg" />
+</div>
+<div data-aos="fade-up-right" class="node node-left"><img class="photo" src="./images/image9.jpg" />
+</div>
+<div data-aos="fade-up-left" class="node node-right"><img class="photo" src="./images/image10.jpg" />
+</div>
+</body>
+<script>
+    AOS.init();
+    const line = document.querySelector('.line');
+    function getPageHeight() {
+        let body = document.body,
+            html = document.documentElement;
+
+        return Math.max( body.scrollHeight, body.offsetHeight,
+            html.clientHeight, html.scrollHeight, html.offsetHeight );
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        line.style.height = `${getPageHeight()}px`
+    })
+</script>
+</html>
