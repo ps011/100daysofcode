@@ -1,4 +1,16 @@
-### Day 5: Wednesday, 22nd April 2020 
+### Day 7: Thursday, 23rd April 2020 
+
+**Goal**: Build a Popup chat window using HTML, CSS and JS
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about animations and transition properties and creating them using pure CSS
+
+**Links to work:** 
+1. [Popup Chat window](https://ps011.github.io/100daysofcode/)
+
+### Day 6: Wednesday, 22nd April 2020 
 
 **Goal**: Build a Travel Timeline page using AOS
 

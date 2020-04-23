@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0" />
+    <title>Support Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<button class="chat-button"><h4>Talk to our Support Team</h4></button>
+    <div class="chat-area">
+
+        <textarea class="input-area" placeholder="Start typing your question"></textarea>
+        <button class="send">Send</button>
+
+        <div class="message user-message">Hi System</div>
+        <div class="message system-message">Hi Prasheel, how are you doing today</div>
+    </div>
+
+<script>
+    const openButton = document.querySelector('.chat-button');
+    const chatArea = document.querySelector('.chat-area');
+    const sendButton = document.querySelector('.send');
+    const textArea = document.querySelector('textarea');
+
+    function openChat() {
+        if (chatArea.style.visibility === 'hidden' || !chatArea.style.visibility) {
+            chatArea.style.visibility = 'visible';
+            chatArea.style.opacity = 1;
+            openButton.style.bottom = `${chatArea.offsetHeight + 10}px`;
+
+        } else {
+            chatArea.style.visibility = 'hidden';
+            chatArea.style.opacity = 0;
+            openButton.style.bottom = 0;
+        }
+    }
+
+    function sendUserMessage(text) {
+        const message = document.createElement('div');
+        message.classList.add('message', 'user-message');
+        message.innerText = text;
+        chatArea.appendChild(message);
+        sendSystemMessage('That\'s Nice. How can I help you today?');
+    }
+
+    function sendSystemMessage(text) {
+        const message = document.createElement('div');
+        message.classList.add('message', 'system-message');
+        message.innerHTML = '<div class="lds-facebook"><div></div><div></div><div></div></div>';
+        chatArea.appendChild(message);
+        setTimeout(() => {
+            message.innerText = text;
+        }, 3000)
+
+    }
+
+    openButton.addEventListener('click', openChat)
+    sendButton.addEventListener('click', () => {
+        sendUserMessage(textArea.value);
+        textArea.value = '';
+    })
+</script>
+</body>
+</html>
