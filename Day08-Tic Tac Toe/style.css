@@ -1,0 +1,70 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+}
+
+td {
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 75px;
+}
+
+.result {
+    text-align: center;
+}
+
+.reset-container {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
+
+.modal-container:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.modal-container {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: block;
+    background: white;
+    padding: 40px;
+    width: 600px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+button {
+    border: 2px solid #2971d4;
+    background-color: transparent;
+    font-weight: bold;
+    color: #2971d4;
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+    outline: none;
+}

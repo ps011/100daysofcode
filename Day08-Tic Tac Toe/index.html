@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <table cellspacing="0">
+        <tr>
+            <td data-index="0"></td>
+            <td data-index="1"></td>
+            <td data-index="2"></td>
+        </tr>
+        <tr>
+            <td data-index="3"></td>
+            <td data-index="4"></td>
+            <td data-index="5"></td>
+        </tr>
+        <tr>
+            <td data-index="6"></td>
+            <td data-index="7"></td>
+            <td data-index="8"></td>
+        </tr>
+    </table>
+<div>
+    <div class="reset-container">
+    <button onclick="reset()">Reset</button>
+    </div>
+</div>
+
+
+    <div id="modal" class="modal-container">
+        <div class="modal">
+            <h1 class="result"></h1>
+            <div class="result-container" style="text-align: center">
+            <button class="ok">GOT IT!</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+    let boardState = [[null, null, null], [null, null, null], [null, null, null]];
+    let turn = true; // 0 is system's turn
+    let chances = 0;
+    const boxes = document.querySelectorAll('td');
+    const modalContainer = document.querySelector('.modal-container');
+    const result = document.querySelector('.result');
+    const ok = document.querySelector('.ok');
+    const winningCombos = [
+        [[0,0], [0,1], [0,2]],
+        [[1,0], [1,1], [1,2]],
+        [[2,0], [2,1], [2,2]],
+        [[0,0], [1,0], [2,0]],
+        [[0,1], [1,1], [2,1]],
+        [[0,2], [1,2], [2,2]],
+        [[0,0], [1,1], [2,2]],
+        [[0,2], [1,1], [2,0]],
+    ];
+
+
+    function onBoxClicked(e) {
+        const index = convertToIndex(+e.target.dataset.index)
+        if (boardState[index[0]][index[1]]) {
+            return;
+        }
+        if (turn) {
+            e.target.innerText = 'X';
+            e.target.style.background = 'salmon';
+            boardState[index[0]][index[1]] = 'X';
+        } else {
+            e.target.innerText = 'O';
+            e.target.style.background = 'lightgreen';
+            boardState[index[0]][index[1]] = 'O';
+        }
+        chances+=1;
+        turn = !turn;
+        setTimeout(() => {
+            let winner = checkForWinningCondition();
+            if(winner) {
+                modalContainer.style.display = 'block';
+                result.innerText = `The winner is '${winner}'`
+            } else if (chances >= 9) {
+                modalContainer.style.display = 'block';
+                result.innerText = `Match Draw!!!`
+            }
+        }, 100)
+
+    }
+
+    function convertToIndex(data) {
+        return [Math.floor(data/3), data%3]
+    }
+
+    function checkForWinningCondition() {
+        let winner = '';
+        winningCombos.some(combo => {
+            if( (boardState[combo[0][0]][combo[0][1]] === boardState[combo[1][0]][combo[1][1]]) &&
+                ( boardState[combo[1][0]][combo[1][1]] === boardState[combo[2][0]][combo[2][1]]) && (boardState[combo[0][0]][combo[0][1]] != null)) {
+                winner = boardState[combo[0][0]][combo[0][1]];
+                return boardState[combo[0][0]][combo[0][1]]
+            }
+        });
+        return winner
+    }
+
+    function reset() {
+        boxes.forEach(box => {
+            box.style.background =  'white';
+            box.innerText = '';
+            boardState = [[null, null, null], [null, null, null], [null, null, null]];
+            chances = 0;
+        })
+    }
+
+    boxes.forEach(box => box.addEventListener('click', (e) => onBoxClicked(e)))
+    ok.addEventListener('click', () => {
+        modalContainer.style.display = 'none';
+        result.innerText = '';
+        reset();
+    })
+</script>
+</body>
+</html>
