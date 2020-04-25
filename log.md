@@ -1,3 +1,15 @@
+### Day 9: Saturday, 25th April 2020 
+
+**Goal**: Build a webpage to Show GIFs
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the GIFy API and CSS animations. 
+
+**Links to work:** 
+1. [GIFyyy](https://ps011.github.io/100daysofcode/)
+
 ### Day 8: Friday, 24th April 2020 
 
 **Goal**: Build a TicTacToe Game 
@@ -8,7 +20,7 @@
 **Thoughts:** Learnt about table layout, the `some` function on javascript and equality comparision.
 
 **Links to work:** 
-1. [Popup Chat window](https://ps011.github.io/100daysofcode/)
+1. [TicTacTow](https://ps011.github.io/100daysofcode/)
 
 ### Day 7: Thursday, 23rd April 2020 
 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>GIFy!!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="header">
+    <span>GIFyyyyyyyy!!</span>
+    <a id="search" href="#">
+        <svg viewbox="0 0 48 48"><path d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/></svg>
+    </a>
+</div>
+<div id="searchbox">
+    <svg class="magnify" viewbox="0 0 48 48"><path d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/></svg>
+    <svg id="searchbox-close" class="close" viewbox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+    <input id="search-input" type="text" placeholder="Search..." />
+</div>
+<div class="content">
+    <div class="box"></div>
+
+</div>
+</body>
+
+<script>
+
+    let searchBox = document.getElementById('searchbox'),
+        searchInput = document.getElementById('search-input'),
+        searchClose = document.getElementById('searchbox-close'),
+        searchLink = document.getElementById('search'),
+        content = document.querySelector('.content'),
+        result;
+
+    function searchToggle() {
+        if (searchBox.className === 'show') {
+            searchBox.className = 'hide';
+            searchLink.className = '';
+            searchInput.value = '';
+            searchInput.blur();
+        } else {
+            searchBox.className = 'show';
+            searchLink.className = 'active';
+            searchInput.focus();
+        }
+    }
+
+    async function searchEnter(e) {
+        if (event.keyCode == 13) {
+            renderResult(await getGIFs(e.target.value))
+            searchToggle();
+        }
+    }
+
+    async function getTrendingGIFs() {
+        showLoading();
+        result = await fetch('https://api.giphy.com/v1/gifs/trending?api_key=53yXCuXxJKloDB89OqL66UoDIWluOYCv&limit=48&rating=G')
+        result = await result.json();
+        return result.data;
+    }
+
+    async function getGIFs(text) {
+        showLoading()
+        result = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=53yXCuXxJKloDB89OqL66UoDIWluOYCv&q=${text}&limit=48&offset=0&rating=G&lang=en`)
+        result = await result.json();
+        return result.data;
+    }
+
+    function renderResult(data) {
+       content.innerHTML = data.map(gif => {
+           console.log(gif);
+           return `
+           <div class="box"><img src="${gif.images.fixed_height_downsampled.url}" /></div>
+           `
+       }).join(' ');
+
+    }
+
+    function showLoading() {
+        content.innerHTML = `
+        <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>`
+    }
+
+    searchLink.addEventListener('click', searchToggle);
+    searchClose.addEventListener('click', searchToggle);
+    searchInput.addEventListener('keyup', (e) => searchEnter(e));
+
+    document.addEventListener('DOMContentLoaded', async() => renderResult(await getTrendingGIFs()));
+</script>
+</html>
