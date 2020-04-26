@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day09-GIFy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day09-GIFy/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/nx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/nz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/py.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/pz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/rock_01_diffusion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/rock_01_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/rock_01_specular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/snow.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/images/stone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-WebGL/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
@@ -19,48 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day09-GIFy/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="e#1604#1953#0" />
-                <element signature="e#1975#2055#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day09-GIFy/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="222" column="93" lean-forward="true" selection-start-line="222" selection-start-column="93" selection-end-line="222" selection-end-column="93" />
+            <state relative-caret-position="295">
+              <caret line="231" column="36" selection-start-line="231" selection-start-column="36" selection-end-line="231" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -71,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -90,6 +68,8 @@
       <find>https://picsum.photos/400</find>
       <find>null</find>
       <find>console</find>
+      <find>Eas</find>
+      <find>’</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
@@ -98,6 +78,7 @@
       <replace>photos/400</replace>
       <replace>./images/image1.JPG</replace>
       <replace>undefined</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -126,9 +107,13 @@
         <option value="$PROJECT_DIR$/Day08-Tic Tac Toe/style.css" />
         <option value="$PROJECT_DIR$/Day08-Tic Tac Toe/index.html" />
         <option value="$PROJECT_DIR$/Day09-GIFy/index.html" />
+        <option value="$PROJECT_DIR$/Day10-WebGL/js/style.css" />
+        <option value="$PROJECT_DIR$/Day10-WebGL/js/index.js" />
         <option value="$PROJECT_DIR$/Day09-GIFy/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Day10-WebGL/index.html" />
+        <option value="$PROJECT_DIR$/Day10-WebGL/style.css" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -144,8 +129,7 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="726" />
-    <option name="width" value="714" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -177,7 +161,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day06-Travel Diary/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day10-WebGL/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -190,11 +174,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Day06-Travel Diary/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day10-WebGL" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day10-WebGL/images" />
+      <recent name="$PROJECT_DIR$/Day10-WebGL/js" />
+      <recent name="$PROJECT_DIR$/Day06-Travel Diary/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,18 +210,19 @@
       <workItem from="1587103994900" duration="13276000" />
       <workItem from="1587199444767" duration="11681000" />
       <workItem from="1587319485231" duration="1484000" />
-      <workItem from="1587358957524" duration="51718000" />
+      <workItem from="1587358957524" duration="52421000" />
+      <workItem from="1587890811625" duration="2804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79777000" />
+    <option name="totallyTimeSpent" value="83284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -318,13 +306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day04-Product Page/products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4192" selection-start-line="8" selection-start-column="4192" selection-end-line="8" selection-end-column="4192" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04-Product Page/products.json" />
     <entry file="file://$PROJECT_DIR$/Day04-Guess The Superhero/images/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -415,30 +397,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day09-GIFy/style.css">
+    <entry file="file://$PROJECT_DIR$/Day10-WebGL/js/EasePack.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Day10-WebGL/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="222" column="93" lean-forward="true" selection-start-line="222" selection-start-column="93" selection-end-line="222" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="142" column="50" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day09-GIFy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10-WebGL/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09-GIFy/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10-WebGL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
           <folding>
-            <element signature="e#1604#1953#0" />
-            <element signature="e#1975#2055#0" />
+            <element signature="e#972#1061#0" />
           </folding>
         </state>
       </provider>
@@ -447,9 +448,19 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
-            <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="231" column="36" selection-start-line="231" selection-start-column="36" selection-end-line="231" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

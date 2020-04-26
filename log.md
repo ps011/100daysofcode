@@ -1,3 +1,15 @@
+### Day 10: Sunday, 26th April 2020 
+
+**Goal**: Build something with WebGL
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages
+
+**Thoughts:** Learnt about the WebGL and Three.JS API aand library 
+
+**Links to work:** 
+1. [WebGL](https://ps011.github.io/100daysofcode/)
+
 ### Day 9: Saturday, 25th April 2020 
 
 **Goal**: Build a webpage to Show GIFs
