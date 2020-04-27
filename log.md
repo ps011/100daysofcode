@@ -1,3 +1,16 @@
+### Day 11: Monday, 27th April 2020 
+
+**Goal**: Build a static page server using Node.JSL
+
+
+**Today's Progress**: Completed the webpage and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt nothing. Already knew this stuff 
+
+**Links to work:** 
+1. [Static Page Server](https://ps011.github.io/100daysofcode/)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/)
+
 ### Day 10: Sunday, 26th April 2020 
 
 **Goal**: Build something with WebGL
