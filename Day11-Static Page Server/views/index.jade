@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}. You can host the following files here:
+
+  ul
+    for file in files
+      li
+        p= file
