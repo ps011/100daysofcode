@@ -5,11 +5,12 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./Day11-Static Page Server/routes/index');
+let day12router = require('./Day12-Email Notification System/send-email');
 
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'Day11-Static Page Server', 'views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(logger('dev'));
@@ -19,6 +20,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
 
 app.use('/', indexRouter);
+app.use('/day12', day12router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

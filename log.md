@@ -1,3 +1,17 @@
+### Day 12: Tuesday, 28th April 2020 
+
+**Goal**: Build an Email Notification/Sending System
+
+
+**Today's Progress**: Completed the project and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt about Nodemailer and SendGrid. Although I was not able to setup sendgrid because of the authorization constraints.
+Had to allow less secure apps access in Gmail for sending out emails.  
+
+**Links to work:** 
+1. [Static Page Server](https://ps011.github.io/100daysofcode/)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day12)
+
 ### Day 11: Monday, 27th April 2020 
 
 **Goal**: Build a static page server using Node.JSL

@@ -1,0 +1,20 @@
+div
+    form(action='/day12/send',method='post')
+        div(data-role='fieldcontain')
+            fieldset(data-role='controlgroup')
+                label(for='email') Send Email To ?
+                    input(id='email',type='text',value='',placeholder='@',name='email')
+
+        div(data-role='fieldcontain')
+            fieldset(data-role='controlgroup')
+                label(for='subject') Subject of Email
+                    input(id='subject',type='text',value='',placeholder='Subject',name='subject')
+
+        div(data-role='fieldcontain')
+            fieldset(data-role='controlgroup')
+                label(for='body') Body of Email
+                    input(id='body',type='text',value='',placeholder='Body',name='body')
+
+
+        div(data-role='fieldcontain')
+            input(type='submit',value='Send Email',data-transition='fade', data-theme='c')
