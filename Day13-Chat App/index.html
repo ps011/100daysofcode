@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/stylesheets/Day13/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="row chat-container">
+    <div class="col-6 ">
+
+        <section class="msger">
+            <main class="msger-chat user-1" id="user-1-chat-area">
+            </main>
+            <span class="typing user-1"></span>
+            <form class="msger-inputarea user-1">
+                <input type="text" class="msger-input" placeholder="Enter your message..." id="user-one-input">
+                <button type="submit" class="msger-send-btn" id="user-one-send">Send</button>
+            </form>
+        </section>
+
+
+    </div>
+    <div class="col-6">
+
+
+        <section class="msger">
+            <main class="msger-chat user-2" id="user-2-chat-area">
+
+            </main>
+            <span class="typing user-2"></span>
+            <form class="msger-inputarea">
+                <input type="text" class="msger-input" placeholder="Enter your message..." id="user-two-input">
+                <button type="submit" class="msger-send-btn" id="user-two-send">Send</button>
+            </form>
+        </section>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<script src="/lib/socket.io.js"></script>
+<script>
+
+    const userOneInput = document.querySelector('#user-one-input');
+    const userTwoInput = document.querySelector('#user-two-input');
+    const userOneSend = document.querySelector('#user-one-send');
+    const userTwoSend = document.querySelector('#user-two-send');
+    const userOneChatArea = document.querySelector('#user-1-chat-area');
+    const userTwoChatArea = document.querySelector('#user-2-chat-area');
+    const typingNotificationOne = document.querySelector('.typing.user-1');
+    const typingNotificationTwo = document.querySelector('.typing.user-2');
+    const socket = io();
+    const users = {
+        'ps11': {
+            name: 'Prasheel',
+            image: '/images/ps.jpg'
+        },
+        'rarenicks': {
+            name: 'Avdhesh',
+            image: '/images/avd.jpg'
+        }
+    }
+
+    userOneInput.addEventListener('keypress', () => {
+        socket.emit('userOneTyping', {});
+    });
+
+    userTwoInput.addEventListener('keypress', () => {
+        socket.emit('userTwoTyping', {});
+    });
+
+    userOneSend.addEventListener('click', (e) => {
+        e.preventDefault();
+        socket.emit('userOneMessage', userOneInput.value);
+        addMessage(userOneInput.value, userOneChatArea, 'right', users.ps11);
+        userOneInput.value = '';
+    });
+
+    userTwoSend.addEventListener('click', (e) => {
+        e.preventDefault();
+        socket.emit('userTwoMessage', userTwoInput.value);
+        addMessage(userTwoInput.value, userTwoChatArea, 'right', users.rarenicks);
+        userTwoInput.value = '';
+    });
+
+    socket.on('userOneTyping', (msg) => {
+        typingNotificationTwo.innerHTML = 'Prasheel is typing...';
+        setTimeout(() => {
+            typingNotificationTwo.innerHTML = '';
+        }, 1000);
+    });
+
+    socket.on('userTwoTyping', (msg) => {
+        typingNotificationOne.innerHTML = 'Avdhesh is typing...';
+        setTimeout(() => {
+            typingNotificationOne.innerHTML = '';
+        }, 1000);
+    });
+
+    socket.on('userOneMessageReceive', (msg) => {
+        addMessage(msg, userOneChatArea, 'left', users.rarenicks);
+    });
+
+    socket.on('userTwoMessageReceive', (msg) => {
+        addMessage(msg, userTwoChatArea, 'left', users.ps11);
+    });
+
+
+    function addMessage(text, container, side, user) {
+        const div = document.createElement("div");
+        div.classList.add('msg', `${side}-msg`);
+        div.innerHTML = `
+                           <div
+                            class="msg-img"
+                            style="background-image: url(${user.image})"
+                    ></div>
+
+                    <div class="msg-bubble">
+                        <div class="msg-info">
+                            <div class="msg-info-name">${user.name}</div>
+                            <div class="msg-info-time">${new Date().getHours() > 12 ? new Date().getHours() - 12 : new Date().getHours()}:${new Date().getMinutes()}</div>
+                        </div>
+
+                        <div class="msg-text">
+                            ${text}
+                        </div>
+                    </div>
+        `
+        container.appendChild(div)
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,3 +1,16 @@
+### Day 13: Wednesdat, 29th April 2020 
+
+**Goal**: Build a Chat Application using Socket.io
+
+
+**Today's Progress**: Completed the project and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt about using Socket.io with express framework. Learnt about web sockets and their events.   
+
+**Links to work:** 
+1. [Chat App](https://ps011.github.io/100daysofcode/)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day13)
+
 ### Day 12: Tuesday, 28th April 2020 
 
 **Goal**: Build an Email Notification/Sending System
@@ -9,7 +22,7 @@
 Had to allow less secure apps access in Gmail for sending out emails.  
 
 **Links to work:** 
-1. [Static Page Server](https://ps011.github.io/100daysofcode/)
+1. [Email Notification](https://ps011.github.io/100daysofcode/)
 2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day12)
 
 ### Day 11: Monday, 27th April 2020 
