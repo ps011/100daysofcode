@@ -1,4 +1,17 @@
-### Day 13: Wednesdat, 29th April 2020 
+### Day 14: Thursday, 30th April 2020 
+
+**Goal**: Build a Users API using Mongoose and MongoDB
+
+
+**Today's Progress**: Completed the project and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt about using mongoose and MongoDB and deployed the DB on mlab.com.
+
+**Links to work:** 
+1. [Users API](https://ps011.github.io/100daysofcode/day14)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day14)
+
+### Day 13: Wednesday, 29th April 2020 
 
 **Goal**: Build a Chat Application using Socket.io
 
