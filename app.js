@@ -7,6 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./Day11-Static Page Server/routes/index');
 const day12router = require('./Day12-Email Notification System/send-email');
 const day13router = require('./Day13-Chat App/chat').router;
+const day14router = require('./Day14-User API/users');
 
 var app = express();
 
@@ -23,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')))
 app.use('/', indexRouter);
 app.use('/day12', day12router);
 app.use('/day13', day13router);
+app.use('/day14', day14router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
