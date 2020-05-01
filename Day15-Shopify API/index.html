@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<div class="wrapper">
+
+
+</div>
+
+
+<script>
+    const wrapper = document.querySelector('.wrapper');
+
+        async function getProducts() {
+            let products = await fetch('https://ps100daysofcode.herokuapp.com/day15');
+            products = await products.json();
+            return  products;
+        }
+
+        function renderProducts(products) {
+            wrapper.innerHTML = '';
+           const productList = products.map(product => {
+                return `
+
+                    <div class="product">
+        <div class="title">
+            ${product.title}
+        </div>
+
+        <div class="text">
+            <div class="code">Product ${product.id}</div>
+            <div class="description">
+                ${product.body_html}
+            </div>
+            <div class="price">
+                $ ${product.variants[0].price}
+            </div>
+            <div class="shop-actions">
+                <button><img src="https://cdn0.iconfinder.com/data/icons/typicons-2/24/shopping-cart-20.png" /> Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="preview">
+                <img class="image" src=${product.image.src} />
+        </div>
+
+
+    </div>`
+            }).join();
+
+           wrapper.innerHTML = productList;
+        }
+
+        async function init() {
+            renderProducts(await getProducts());
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+</script>
 </body>
 </html>
