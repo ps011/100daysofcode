@@ -1,3 +1,16 @@
+### Day 15: Friday, 1st May 2020 
+
+**Goal**: Build a Products Page using Shopify API
+
+
+**Today's Progress**: Completed the project and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt about using axios in Node.JS, Shopify API and it's features.
+
+**Links to work:** 
+1. [Shopify API](https://ps011.github.io/100daysofcode/day15)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day15)
+
 ### Day 14: Thursday, 30th April 2020 
 
 **Goal**: Build a Users API using Mongoose and MongoDB
