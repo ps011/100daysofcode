@@ -1,5 +1,18 @@
 ### Day 15: Friday, 1st May 2020 
 
+**Goal**: Build a Web Scraper and scrape something
+
+
+**Today's Progress**: Completed the project and deployed it on github pages and Heroku
+
+**Thoughts:** Learnt about using cheerio and web scraping.
+
+**Links to work:** 
+1. [Web Scraper](https://ps011.github.io/100daysofcode)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day15)
+
+### Day 15: Friday, 1st May 2020 
+
 **Goal**: Build a Products Page using Shopify API
 
 
@@ -8,7 +21,7 @@
 **Thoughts:** Learnt about using axios in Node.JS, Shopify API and it's features.
 
 **Links to work:** 
-1. [Shopify API](https://ps011.github.io/100daysofcode/day15)
+1. [Shopify API](https://ps011.github.io/100daysofcode)
 2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day15)
 
 ### Day 14: Thursday, 30th April 2020 
@@ -21,7 +34,7 @@
 **Thoughts:** Learnt about using mongoose and MongoDB and deployed the DB on mlab.com.
 
 **Links to work:** 
-1. [Users API](https://ps011.github.io/100daysofcode/day14)
+1. [Users API](https://ps011.github.io/100daysofcode)
 2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day14)
 
 ### Day 13: Wednesday, 29th April 2020 

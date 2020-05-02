@@ -26,15 +26,7 @@ body {
     border-radius: 4px;
     padding: 16px 32px 32px 32px;
     margin: 16px;
-    width: 280px;
-}
-.card:hover {
-    border-top: 8px solid #6863CE;
-    border-radius: 4px;
-    -webkit-transform: translateY(-1em);
-    transform: translateY(-1em);
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    width: 370px;
 }
 
 .card__title {
@@ -103,11 +95,83 @@ li:before {
     color: #ffffff;
 }
 
-.card:hover .card__button {
-    background-color: #6863CE;
-    border-color: #6863CE;
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.card:hover .price {
-    color: #6863CE;
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/*.flip-card:hover .flip-card-inner {*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+
+.show-back {
+    transform: rotateY(180deg);
+}
+
+.show-front {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+
+.lds-circle {
+    display: inline-block;
+    transform: translateZ(1px);
+}
+.lds-circle > div {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    background: #fed;
+    animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+@keyframes lds-circle {
+    0%, 100% {
+        animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+    }
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(1800deg);
+        animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+    100% {
+        transform: rotateY(3600deg);
+    }
 }

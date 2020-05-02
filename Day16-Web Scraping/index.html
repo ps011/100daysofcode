@@ -10,27 +10,11 @@
 <div class="flip-card">
     <div class="flip-card-inner">
         <div class="flip-card-front">
-<!--           list of buttons will go here -->
+
         </div>
         <div class="flip-card-back">
 
-            <div id="card" class="card">
-                <h1 class="card__title">Basic</h1>
-                <div class="card__body">
-                    <p class="price"><span class="price__symbol">$</span>19</p>
-                    <p class="price__tag">loral ipsum loral</p>
-                </div>
-                <ol class="card__list">
-                    <li class="card__list__item">Ipsum ipsum ipsum</li>
-                    <li class="card__list__item">Ipsum loral</li>
-                    <li class="card__list__item">Loral ipsum loral loral</li>
-                </ol>
-                <button class="card__button"
-                        type="button"
-                        value="select"
-                        onclick="alert('Basic Selected');">Select
-                </button>
-            </div>
+
         </div>
     </div>
 </div>
@@ -38,14 +22,77 @@
 </body>
 
 <script>
-
+        const flipCard = document.querySelector('.flip-card-inner');
+        const backDiv = document.querySelector('.flip-card-back');
+        const frontDiv = document.querySelector('.flip-card-front');
     async function getPrices(commodity) {
+        showLoading()
         let prices = await fetch(`https://ps100daysofcode.herokuapp.com/day16/${commodity.toUpperCase()}`)
         prices = await prices.json();
-        return prices;
+        addBackCard(prices)
     }
 
-    document.addEventListener('DOMContentLoaded', async () => {console.log(await getPrices('gold'))})
+    function addBackCard(prices) {
+        backDiv.innerHTML = `
+                        <div id="card" class="card">
+                <h1 class="card__title">${prices.name}</h1>
+                <div class="card__body">
+                    <p class="price"><span class="price__symbol">INR</span>${prices.price}</p>
+                    <p class="price__tag">${prices.name === 'GOLD' ? '/ 10 GRAMs' : '/ KG'}</p>
+                </div>
+                <ol class="card__list">
+                    <li class="card__list__item">OPEN: INR ${prices.open}</li>
+                    <li class="card__list__item">PREV. CLOSE: INR ${prices.prevClose}</li>
+                </ol>
+
+            </div>`;
+        flipCard.classList.add('show-back');
+
+        setTimeout(() => {
+            addFrontCard();
+            flipCard.classList.remove('show-back')
+        }, 5000);
+        }
+
+    function addFrontCard() {
+        frontDiv.innerHTML = `
+        <div  class="card">
+            <button class="card__button"
+                    type="button"
+                    value="select"
+                    onclick="getPrices('GOLD')">Gold
+            </button>
+
+            <button class="card__button"
+                    type="button"
+                    value="select"
+                    onclick="getPrices('SILVER')">Silver
+            </button>
+
+            <button class="card__button"
+                    type="button"
+                    value="select"
+                    onclick="getPrices('COPPER')">Copper
+            </button>
+
+            <button class="card__button"
+                    type="button"
+                    value="select"
+                    onclick="getPrices('ZINC')">Zinc
+            </button>
+
+            <button class="card__button"
+                    type="button"
+                    value="select"
+                    onclick="getPrices('LEAD')">Lead
+            </button>
+            </div>`
+    }
+
+    function showLoading() {
+        frontDiv.innerHTML = `<div  class="card"><div class="lds-circle"><div></div></div></div>`;
+    }
+    document.addEventListener('DOMContentLoaded', addFrontCard)
 
 </script>
 </html>
