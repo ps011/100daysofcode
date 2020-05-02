@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Commodity Prices</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="card" class="card">
+    <h1 class="card__title">Basic</h1>
+    <div class="card__body">
+        <p class="price"><span class="price__symbol">$</span>19</p>
+        <p class="price__tag">loral ipsum loral</p>
+    </div>
+    <ol class="card__list">
+        <li class="card__list__item">Ipsum ipsum ipsum</li>
+        <li class="card__list__item">Ipsum loral</li>
+        <li class="card__list__item">Loral ipsum loral loral</li>
+    </ol>
+    <button class="card__button"
+            type="button"
+            value="select"
+            onclick="alert('Basic Selected');">Select
+    </button>
+</div>
+</body>
+
+<script>
+
+    async function getPrices(commodity) {
+        let prices = await fetch('https://ps100daysofcode.herokuapp.com/day16')
+        prices = await prices.json();
+        return prices;
+    }
+
+</script>
+</html>

@@ -10,6 +10,7 @@ const day12router = require('./Day12-Email Notification System/send-email');
 const day13router = require('./Day13-Chat App/chat').router;
 const day14router = require('./Day14-User API/users');
 const day15router = require('./Day15-Shopify API/shopify');
+const day16router = require('./Day16-Web Scraping/web-scraping');
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use('/day12', day12router);
 app.use('/day13', day13router);
 app.use('/day14', day14router);
 app.use('/day15', day15router);
+app.use('/day16', day16router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
