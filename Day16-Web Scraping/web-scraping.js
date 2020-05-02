@@ -10,6 +10,7 @@ router.get('/:name', async function(req, res, next) {
         const textdata = buffer.toString(); // for string
         const $ = cheerio.load(textdata);
         const data = {
+            name: req.params.name,
             price: $('.commodityPrice').text(),
             open: $('.openPrice').text(),
             prevClose: $('.previousClosePrice').text()
