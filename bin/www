@@ -5,7 +5,6 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('day11-static-page-server:server');
 var http = require('http');
 var socket = require('../Day13-Chat App/chat').io;
 const mongoUtil = require('../Day14-User API/database');

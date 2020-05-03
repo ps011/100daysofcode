@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Changer</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h1>Voice Changer</h1>
+<span>( Make sure you use 🎧 )</span>
+
+<div id="container">
+    <button class="learn-more" onclick="startAudio('delay')">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Delay</span>
+    </button>
+
+    <button class="learn-more" onclick="startAudio('ppdelay')">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Ping Pong</span>
+    </button>
+
+    <button class="learn-more" onclick="startAudio('ddelay')">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Dub Delay</span>
+    </button>
+
+    <button class="learn-more" onclick="startAudio('quadrafuzz')">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Quadrafuzz</span>
+    </button>
+
+    <button class="learn-more" onclick="startAudio('reverb')">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Reverb</span>
+    </button>
+
+    <button class="learn-more" onclick="stop()">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">⏹</span>
+    </button>
+</div>
+
+
+<script src="lib/Pizzicato.min.js"></script>
+<script>
+    let delay;
+    let voice;
+function startAudio(effect) {
+    if (voice && delay) {
+        voice.stop();
+        voice.removeEffect(delay);
+    }
+     voice = new Pizzicato.Sound({ source: 'input' }, () => {
+        switch(effect) {
+            case 'delay' : {
+                delay = new Pizzicato.Effects.Delay();
+                break;
+            }
+
+            case 'ppdelay' : {
+                delay = new Pizzicato.Effects.PingPongDelay();
+                break;
+            }
+
+            case 'ddelay' : {
+                delay = new Pizzicato.Effects.DubDelay();
+                break;
+            }
+            case 'quadrafuzz': {
+                delay = new Pizzicato.Effects.Quadrafuzz();
+                break;
+            }
+            case 'reverb': {
+                delay = new Pizzicato.Effects.Reverb();
+                break;
+            }
+        }
+        voice.addEffect(delay);
+        voice.play();
+    });
+
+
+
+
+}
+
+function stop() {
+    voice.stop();
+}
+</script>
+</body>
+</html>

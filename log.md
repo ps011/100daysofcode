@@ -1,4 +1,16 @@
-### Day 15: Friday, 1st May 2020 
+### Day 17: Saturday, 3rd May 2020 
+
+**Goal**: Build a Voice Changer
+
+
+**Today's Progress**: Completed the project and deployed it on github pages.
+
+**Thoughts:** Learnt about using the Pizzicato library
+
+**Links to work:** 
+1. [Voice Changer](https://ps011.github.io/100daysofcode)
+
+### Day 16: Saturday, 2nd May 2020 
 
 **Goal**: Build a Web Scraper and scrape something
 
@@ -9,7 +21,7 @@
 
 **Links to work:** 
 1. [Web Scraper](https://ps011.github.io/100daysofcode)
-2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day15)
+2. [Heroku Link](https://ps100daysofcode.herokuapp.com/day16)
 
 ### Day 15: Friday, 1st May 2020 
 
