@@ -7,13 +7,23 @@
 </head>
 <body>
 
-<form>
-    <div class="input-file">
-        <img id="file_upload" src="http://placehold.it/70" alt="your image" class="upload-img" />
-        <div class="input-file-upload">
-            <span class="upload-label">Upload Image</span>
-            <input type='file' onchange="readURL(this);" />
-        </div>
+<!--<form enctype="multipart/form-data">-->
+<!--    <div class="input-file">-->
+<!--        <img id="file_upload" src="http://placehold.it/70" alt="your image" class="upload-img" />-->
+<!--        <div class="input-file-upload">-->
+<!--            <span class="upload-label">Upload Image</span>-->
+<!--            <input type='file' onchange="readURL(this);" />-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</form>-->
+
+<form method="POST" action="http://localhost:3000/day18/" enctype="multipart/form-data">
+    <div>
+        <label>Select your profile picture:</label>
+        <input type="file" name="avatar" />
+    </div>
+    <div>
+        <input type="submit" name="btn_upload_profile_pic" value="Upload" />
     </div>
 </form>
 
@@ -34,7 +44,7 @@
     }
 
     async function postData(image) {
-       let response = await fetch('https://ps100daysofcode.herokuapp.com/day18/', {
+       let response = await fetch('http://localhost:3000/day18/', {
             method: 'POST',
             body: {
                 file: image

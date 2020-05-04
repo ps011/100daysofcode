@@ -3,7 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var cors = require('cors')
+var cors = require('cors');
+var bodyParser = require('body-parser');
 
 var indexRouter = require('./Day11-Static Page Server/routes/index');
 const day12router = require('./Day12-Email Notification System/send-email');
@@ -11,7 +12,7 @@ const day13router = require('./Day13-Chat App/chat').router;
 const day14router = require('./Day14-User API/users');
 const day15router = require('./Day15-Shopify API/shopify');
 const day16router = require('./Day16-Web Scraping/web-scraping');
-const day18router = require('./Day18-Text Detection/text-detection');
+const day18router = require('./Day18-Text-Detection/text-detection');
 
 var app = express();
 
@@ -20,10 +21,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(cors())
 app.use(logger('dev'));
-app.use(express.json());
+app.use(bodyParser.raw());
+app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
+app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
 
 app.use('/', indexRouter);
 app.use('/day12', day12router);
@@ -48,5 +52,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
