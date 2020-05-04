@@ -11,6 +11,7 @@ const day13router = require('./Day13-Chat App/chat').router;
 const day14router = require('./Day14-User API/users');
 const day15router = require('./Day15-Shopify API/shopify');
 const day16router = require('./Day16-Web Scraping/web-scraping');
+const day18router = require('./Day18-Text Detection/text-detection');
 
 var app = express();
 
@@ -30,6 +31,7 @@ app.use('/day13', day13router);
 app.use('/day14', day14router);
 app.use('/day15', day15router);
 app.use('/day16', day16router);
+app.use('/day18', day18router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
