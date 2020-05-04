@@ -1,4 +1,16 @@
-### Day 17: Saturday, 3rd May 2020 
+### Day 18: Monday, 4rd May 2020 
+
+**Goal**: Build an API to detect texts in images
+
+
+**Today's Progress**: Completed the project and deployed it on github pages.
+
+**Thoughts:** Learnt about Google Cloud Vision API, form data parsing in nodejs and multer
+
+**Links to work:** 
+1. [Text Detection](https://ps011.github.io/100daysofcode)
+
+### Day 17: Sunday, 3rd May 2020 
 
 **Goal**: Build a Voice Changer
 

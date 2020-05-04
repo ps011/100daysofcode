@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Detection</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form>
+    <div class="input-file">
+        <img id="file_upload" src="http://placehold.it/70" alt="your image" class="upload-img" />
+        <div class="input-file-upload">
+            <span class="upload-label">Upload</span>
+            <input type='file' onchange="readURL(this);" />
+        </div>
+    </div>
+</form>
+
+<h1>Found Texts</h1>
+
+<div class="container">
+    <ul id="list">
+
+    </ul>
+</div>
+
+
+
+<script>
+    let img = document.querySelector('#file_upload');
+    let list = document.querySelector('#list');
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+
+            reader.onload = async function (e) {
+                img.setAttribute('src', e.target.result);
+                renderText(await postData(e.target.result.split(',')[1]));
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    async function postData(image) {
+        bodyData = JSON.stringify({
+            image: {
+                content: image
+            }
+        });
+       let response = await fetch('https://ps100daysofcode.herokuapp.com/day18/', {
+            method: 'POST',
+           headers: {
+                "content-type": "application/json"
+           },
+            body: bodyData
+        });
+        response = await response.json();
+        return response;
+    }
+
+    function renderText(text) {
+       list.innerHTML = text.map(t => {
+           return `<li>${t}</li>`
+       }).join('');
+    }
+
+</script>
+</body>
+</html>
