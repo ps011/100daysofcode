@@ -1,4 +1,16 @@
-### Day 18: Monday, 4rd May 2020 
+### Day 19: Tuesday, 5th May 2020 
+
+**Goal**: Build an Amazon Alexa Skill
+
+
+**Today's Progress**: Created a skill
+
+**Thoughts:** Learnt about creating an amazon alexa skill and hosting the backend on an express application. Although I was not able to get this working. But yes, I learnt about it.
+
+**Links to work:** 
+1. [Alexa Skill](https://ps011.github.io/100daysofcode)
+
+### Day 18: Monday, 4th May 2020 
 
 **Goal**: Build an API to detect texts in images
 
