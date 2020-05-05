@@ -1,44 +1,55 @@
 var express = require('express');
 var router = express.Router();
-const Alexa = require('ask-sdk');
 
+const Util = require('./utility');
 
-const HelloWorldHandler = {
+const LaunchHandler = {
     canHandle(handlerInput) {
-        return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-            && handlerInput.requestEnvelope.request.intent.name === 'HelloWorldIntent';
+        return Util.checkIntentTypeName(handlerInput, 'LaunchRequest');
     },
-    handle(handlerInput) {
-        const speechText = 'Hello World!';
-
+    async handle(handlerInput) {
         return handlerInput.responseBuilder
-            .speak(speechText)
-            .withSimpleCard('Hello World', speechText)
+            .speak('Welcome to Prasheel\'s Air Quality Index')
             .getResponse();
     }
+}
+
+// Help Handler
+const HelpIntentHandler = {
+    canHandle(handlerInput) {
+        return (Util.checkIntentTypeName(handlerInput, 'IntentRequest', 'AMAZON.HelpIntent'));
+    },
+    async handle(handlerInput) {
+        return handlerInput.responseBuilder
+            .speak('We are happy to help you')
+            .getResponse();
+    }
+}
+
+const ErrorHandler = {
+    canHandle() {
+        return true;
+    },
+    handle(handlerInput, error) {
+        console.log(`Error handled: ${error.message}`);
+        return handlerInput.responseBuilder
+            .speak('Something went wrong but we are on to it')
+            .getResponse();
+    },
 };
 
+const Alexa = require('ask-sdk-core');
+const { ExpressAdapter } = require('ask-sdk-express-adapter');
+const skillBuilder = Alexa.SkillBuilders.custom()
+    .addRequestHandlers(HelpIntentHandler)
+    .addErrorHandlers(ErrorHandler);
+const skill = skillBuilder.create();
+const adapter = new ExpressAdapter(skill, true, true);
+
 /* POST request from alexa */
-router.post('/', (req, res) => {
+router.post('/', adapter.getRequestHandlers());
 
 
-    const skill = Alexa.SkillBuilders.custom()
-        .addRequestHandlers(
-            HelloWorldHandler
-        )
-        .create();
 
-
-    skill.invoke(req.body)
-        .then(function (responseBody) {
-            res.json(responseBody);
-        })
-        .catch(function (error) {
-            console.log(error);
-            res.status(500).send('Error during the request');
-        });
-
-
-});
 
 module.exports = router;
