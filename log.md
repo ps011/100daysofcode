@@ -1,3 +1,27 @@
+### Day 22: Thursday, 7th May 2020 
+
+**Goal**: Build a GraphQL server using Node.JS
+
+
+**Today's Progress**: Created a server and deployed on heroku
+
+**Thoughts:** Learnt about GraphQL and its capabilities of querying. Integrated it in express server. 
+
+**Links to work:** 
+1. [Flight Details](https://ps011.github.io/100daysofcode)
+
+### Day 20: Wednesday, 6th May 2020 
+
+**Goal**: Build a fulfillment service for dialog flow to fetch  flight details
+
+
+**Today's Progress**: Created an HTML page which fetches flight details and displays it
+
+**Thoughts:** Learnt about dialog flow and the aviationstack API. Dialog flow is very fimilar to alexa just the terminologies are different.
+
+**Links to work:** 
+1. [Flight Details](https://ps011.github.io/100daysofcode)
+
 ### Day 19: Tuesday, 5th May 2020 
 
 **Goal**: Build an Amazon Alexa Skill
