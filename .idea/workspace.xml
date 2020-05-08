@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="496" column="111" lean-forward="true" selection-start-line="496" selection-start-column="111" selection-end-line="496" selection-end-column="111" />
+            <state relative-caret-position="141">
+              <caret line="493" column="39" lean-forward="true" selection-start-line="493" selection-start-column="39" selection-end-line="493" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -317,12 +316,12 @@
       <workItem from="1587358957524" duration="52421000" />
       <workItem from="1587890811625" duration="4688000" />
       <workItem from="1588083102623" duration="53151000" />
-      <workItem from="1588773509877" duration="5407000" />
+      <workItem from="1588773509877" duration="5444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143726000" />
+    <option name="totallyTimeSpent" value="143763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -342,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48554218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.48554218" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -663,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="496" column="111" lean-forward="true" selection-start-line="496" selection-start-column="111" selection-end-line="496" selection-end-column="111" />
+        <state relative-caret-position="141">
+          <caret line="493" column="39" lean-forward="true" selection-start-line="493" selection-start-column="39" selection-end-line="493" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
