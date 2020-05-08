@@ -1,3 +1,15 @@
+### Day 23: Friday, 8th May 2020 
+
+**Goal**: Build a serverless function/Learn about it
+
+
+**Today's Progress**: Learnt about serverless architecture
+
+**Thoughts:** Learnt about serverless architecture and also about the providers, areas of application and implementation details. 
+
+**Links to work:** 
+1. [Serverless](https://ps011.github.io/100daysofcode)
+
 ### Day 22: Thursday, 7th May 2020 
 
 **Goal**: Build a GraphQL server using Node.JS
