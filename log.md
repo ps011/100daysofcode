@@ -1,3 +1,15 @@
+### Day 24: Saturday, 9th May 2020 
+
+**Goal**: Build a Hangouts like application using WebRTC
+
+
+**Today's Progress**: Developed the app and deployed on heroku
+
+**Thoughts:**  Learnt about WebRTC and Video streaming also about peer to peer connection.
+
+**Links to work:** 
+1. [Prasheel's WebRTC](https://ps100daysofcode.heroku.com/webrtc-index.html)
+
 ### Day 23: Friday, 8th May 2020 
 
 **Goal**: Build a serverless function/Learn about it
