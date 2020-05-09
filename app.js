@@ -30,6 +30,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
 app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
+app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
 
 app.use('/', indexRouter);
 app.use('/day12', day12router);
