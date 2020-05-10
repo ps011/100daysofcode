@@ -1,12 +1,10 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var cors = require('cors');
-var bodyParser = require('body-parser');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
 
-var indexRouter = require('./Day11-Static Page Server/routes/index');
+const indexRouter = require('./Day11-Static Page Server/index');
 const day12router = require('./Day12-Email Notification System/send-email');
 const day13router = require('./Day13-Chat App/chat').router;
 const day14router = require('./Day14-User API/users');
@@ -16,21 +14,19 @@ const day18router = require('./Day18-Text-Detection/text-detection');
 const day19router = require('./Day19-Alexa Skill/alexa-skill');
 const day22router = require('./Day22-GraphQL Server/server');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(cors())
-app.use(logger('dev'));
-app.use(bodyParser.raw());
-app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
 app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
 app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
+app.use(express.static(__dirname));
 
 app.use('/', indexRouter);
 app.use('/day12', day12router);
