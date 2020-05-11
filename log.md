@@ -1,3 +1,15 @@
+### Day 26: Monday, 11th May 2020 
+
+**Goal**: Install Google Assistant on Raspberry Pi 
+
+
+**Today's Progress**: Installed it on RaspberryPi
+
+**Thoughts:**  Learnt about assistants available on Raspberry Pi
+
+**Links to work:** 
+1. [Prasheel's WebRTC](https://ps100daysofcode.heroku.com)
+
 ### Day 25: Sunday, 10th May 2020 
 
 **Goal**: Build a PDF Generator using PDFKit for Node.JS
