@@ -1,3 +1,15 @@
+### Day 27: Monday, 12th May 2020 
+
+**Goal**: Parse data from Kaggle and create a REST API around it
+
+
+**Today's Progress**: Developed the app and deployed on heroku
+
+**Thoughts:** Learnt about Kaggle and data available on it. Learnt about `fast-csv` module and `lodb`
+
+**Links to work:** 
+1. [Kaggle Data API](https://ps100daysofcode.heroku.com)
+
 ### Day 26: Monday, 11th May 2020 
 
 **Goal**: Install Google Assistant on Raspberry Pi 
@@ -7,8 +19,6 @@
 
 **Thoughts:**  Learnt about assistants available on Raspberry Pi
 
-**Links to work:** 
-1. [Prasheel's WebRTC](https://ps100daysofcode.heroku.com)
 
 ### Day 25: Sunday, 10th May 2020 
 
@@ -20,7 +30,7 @@
 **Thoughts:**  Learnt about PDF Kit module for Node.JS
 
 **Links to work:** 
-1. [Prasheel's WebRTC](https://ps100daysofcode.heroku.com)
+1. [PDF Generator](https://ps100daysofcode.heroku.com)
 
 ### Day 24: Saturday, 9th May 2020 
 

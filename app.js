@@ -13,6 +13,7 @@ const day16router = require('./Day16-Web Scraping/web-scraping');
 const day18router = require('./Day18-Text-Detection/text-detection');
 const day19router = require('./Day19-Alexa Skill/alexa-skill');
 const day22router = require('./Day22-GraphQL Server/server');
+const day27router = require('./Day27-KaggleAPI/kaggle-api');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
 app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
 app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 
 app.use('/', indexRouter);
@@ -37,6 +39,7 @@ app.use('/day16', day16router);
 app.use('/day18', day18router);
 app.use('/day19', day19router);
 app.use('/day22', day22router);
+app.use('/day27', day27router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
