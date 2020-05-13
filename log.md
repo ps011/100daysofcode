@@ -1,4 +1,16 @@
-### Day 27: Monday, 12th May 2020 
+### Day 28: Wednesday, 13th May 2020 
+
+**Goal**: Create a file uploader using Uppy
+
+
+**Today's Progress**: Developed the app and deployed on heroku
+
+**Thoughts:** Learnt about Uppy and Tus
+
+**Links to work:** 
+1. [Kaggle Data API](https://ps100daysofcode.heroku.com)
+
+### Day 27: Tuesday, 12th May 2020 
 
 **Goal**: Parse data from Kaggle and create a REST API around it
 
