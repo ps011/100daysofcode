@@ -1,3 +1,15 @@
+### Day 29: Thursday, 14th May 2020 
+
+**Goal**: Create a REST API and add JWT based authentication
+
+
+**Today's Progress**: Developed the app and deployed on heroku
+
+**Thoughts:** Learnt about Passport.JS and JWT based authentication
+
+**Links to work:** 
+1. [Passport JS](https://ps100daysofcode.heroku.com)
+
 ### Day 28: Wednesday, 13th May 2020 
 
 **Goal**: Create a file uploader using Uppy
@@ -8,7 +20,7 @@
 **Thoughts:** Learnt about Uppy and Tus
 
 **Links to work:** 
-1. [Kaggle Data API](https://ps100daysofcode.heroku.com)
+1. [File Uploader](https://ps100daysofcode.heroku.com)
 
 ### Day 27: Tuesday, 12th May 2020 
 
