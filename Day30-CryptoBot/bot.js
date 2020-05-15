@@ -54,9 +54,9 @@ const placeSell = (buyData) => {
 
 const startTrading = (currentPrice) => {
     console.log('Current Price', currentPrice, 'Last Price', lastPrice)
-    if (currentPrice > lastPrice) {
+    if (currentPrice < lastPrice) {
         console.log('Order Placed')
-    } else if (currentPrice < lastPrice) {
+    } else if (currentPrice > lastPrice) {
         console.log('Coins Sold')
     } else {
         console.log('No Action')
