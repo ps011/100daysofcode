@@ -1,6 +1,6 @@
 ### Day 30: Friday, 15th May 2020 
 
-**Goal**: BUild a command line based crypto currency trading bot
+**Goal**: Build a command line based crypto currency trading bot
 
 
 **Today's Progress**: Developed the app and deployed on heroku
@@ -8,7 +8,7 @@
 **Thoughts:** Learnt about Crypto currencies, coinbase-pro and algorithms involved in trading currencies. I am yet to integrate algoriths to make the BOT trading ready/ 
 
 **Links to work:** 
-1. [Passport JS](https://ps100daysofcode.heroku.com)
+1. [CryptoBOT](https://ps100daysofcode.heroku.com)
 
 ### Day 29: Thursday, 14th May 2020 
 
