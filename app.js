@@ -15,6 +15,7 @@ const day19router = require('./Day19-Alexa Skill/alexa-skill');
 const day22router = require('./Day22-GraphQL Server/server');
 const day27router = require('./Day27-KaggleAPI/kaggle-api');
 const day29router = require('./Day29-PassportJS/passport');
+const day30router = require('./Day30-CryptoBot/bot');
 
 const app = express();
 
@@ -42,6 +43,7 @@ app.use('/day19', day19router);
 app.use('/day22', day22router);
 app.use('/day27', day27router);
 app.use('/day29', day29router);
+app.use('/day30', day30router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
