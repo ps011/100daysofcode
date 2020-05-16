@@ -1,3 +1,15 @@
+### Day 31: Saturday, 16th May 2020 
+
+**Goal**: Learn about Blockchain and create a basic structure
+
+
+**Today's Progress**: Developed the app and deployed on heroku
+
+**Thoughts:** Learnt about Blockchain and it's concepts. It cleared a lot of misconceptions that I had about it. Blockchain is just a data structure and I was surprised to read that it was first used in 1991 for some document stamping. 
+
+**Links to work:** 
+1. [Blockchain](https://ps100daysofcode.heroku.com)
+
 ### Day 30: Friday, 15th May 2020 
 
 **Goal**: Build a command line based crypto currency trading bot
