@@ -1,3 +1,15 @@
+### Day 32: Sunday, 17th May 2020 
+
+**Goal**: Create brand logos using CSS
+
+
+**Today's Progress**: Designed the Logos and deployed
+
+**Thoughts:** Applied the concepts of CSS that I learnt during the Udemy course. 
+
+**Links to work:** 
+1. [Brand Logos](https://ps011.github.io)
+
 ### Day 31: Saturday, 16th May 2020 
 
 **Goal**: Learn about Blockchain and create a basic structure

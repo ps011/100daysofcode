@@ -1,13 +1,26 @@
-/* Container */
+body {
+    background: #000;
+}
 
+/* Container */
 .container {
-    margin: auto;
     text-align: center;
     font-family: sans-serif;
+    padding: 50px;
+    width: 800px;
+    background: grey;
+    border-radius: 20px;
+    margin: 24px auto;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
 }
 
 /* Mastercard Logo */
 .mc-logo {
+    display: inline-block;
     position: relative;
     width: 400px;
 }
@@ -48,6 +61,7 @@
 
 .bmw-logo {
     width: 300px;
+    display: inline-block;
 }
 
 .outer-circle {
@@ -119,82 +133,38 @@
 }
 
 
+/* Instagram logo*/
+
+
 .instagram {
-    background: linear-gradient(to bottom left, purple 20%, red 50%, yellow);
-    height: 200px;
-    width: 200px;
-    border-radius: 30px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: .2em;
+    font-size: 50vmin;
+    height: 1em;
     position: relative;
+    width: 1em;
+    display: inline-block;
 }
-
-.inner-square {
-    width: 150px;
-    height: 150px;
-    background: white;
+.instagram:before, .instagram:after {
+    color: #fff;
+    content: '';
+    display: block;
     position: absolute;
-    left: 25px;
-    top: 25px;
-    border-radius: 30px;
+    border: .075em solid;
 }
-
-.inner-circle {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border-width: 10px;
-    border-style: solid;
-    border-image: linear-gradient(
-            to bottom left,
-            purple,
-            red,
-            yellow
-    ) 1 100%;
-    left: 40px;
-    top: 40px;
-    position: absolute;
+.instagram:before {
+    border-radius: inherit;
+    height: .75em;
+    -webkit-transform: translate(0.125em, 0.125em);
+    transform: translate(0.05em, 0.05em);
+    width: .75em;
 }
-
-
-
-
-/* Nike */
-.nike{
-    position:absolute;
-    top:300px;left:300px;
-    width:470px;height:200px;
-    overflow:hidden;
-    font-family: Arial, sans-serif;
-    font-size:40px;
-    line-height: 300px;
-    text-indent: 350px;
-    z-index: 3;
-}
-
-.nike:before{
-    content:"";
-    position:absolute;
-    top:-250px;
-    left:190px;
-    width: 150px;
-    height:550px;
-    background: black;
-    border-top-left-radius: 60px 110px;
-    border-top-right-radius: 130px 220px;
-    transform: rotate(-113deg);
-    z-index: 1;
-}
-
-.nike:after {
-    content: "";
-    position: absolute;
-    top: -235px;
-    left: 220px;
-    width: 120px;
-    height: 500px;
-    background: black;
-    border-top-left-radius: 60px  110px;
-    border-top-right-radius: 130px 220px;
-    background: white;
-    transform: rotate(-104deg);
-    z-index: 2;
+.instagram:after {
+    border-radius: 1em;
+    box-shadow: .2em -.2em 0 -.16em;
+    height: .4em;
+    -webkit-transform: translate(0.3em, 0.3em);
+    transform: translate(0.21em, 0.25em);
+    width: .4em;
 }
