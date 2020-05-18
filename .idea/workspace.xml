@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day32-Brand Logos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day32-Brand Logos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day32-Brand Logos/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Day32-Brand Logos/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="685" column="62" selection-start-line="685" selection-start-column="62" selection-end-line="685" selection-end-column="62" />
+            <state relative-caret-position="708">
+              <caret line="706" column="96" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="96" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -34,10 +32,19 @@
         <entry file="file://$PROJECT_DIR$/log.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="139">
-                <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day33-AWS Lambda/aws-lambda/handler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -330,12 +337,12 @@
       <workItem from="1589204498698" duration="7292000" />
       <workItem from="1589464630563" duration="7236000" />
       <workItem from="1589640675426" duration="1627000" />
-      <workItem from="1589718663002" duration="6673000" />
+      <workItem from="1589718663002" duration="8106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172290000" />
+    <option name="totallyTimeSpent" value="173723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -392,7 +399,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day17-P2P-Chat/public/client-2.html" />
     <entry file="file://$PROJECT_DIR$/Day17-P2P-Chat/public/client-1.html" />
     <entry file="file://$PROJECT_DIR$/Day17-Voice Changer/server.js" />
     <entry file="file://$PROJECT_DIR$/Day17-Voice Changer/src/index.js" />
@@ -653,10 +659,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day33-AWS Lambda/aws-lambda/handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="685" column="62" selection-start-line="685" selection-start-column="62" selection-end-line="685" selection-end-column="62" />
+        <state relative-caret-position="708">
+          <caret line="706" column="96" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="96" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -666,8 +679,8 @@
     <entry file="file://$PROJECT_DIR$/log.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="139">
-            <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>

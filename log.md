@@ -1,3 +1,15 @@
+### Day 33: Monday, 18th May 2020 
+
+**Goal**: Learn about AWS Lambda
+
+
+**Today's Progress**: Learnt about AWS Lambda
+
+**Thoughts:** Learnt about AWS Lambda and it's features. Created a basic handler in Node.JS 
+
+**Links to work:** 
+1. [AWS Lambda](https://ps011.github.io)
+
 ### Day 32: Sunday, 17th May 2020 
 
 **Goal**: Create brand logos using CSS
