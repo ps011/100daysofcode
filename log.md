@@ -1,3 +1,15 @@
+### Day 34: Tuesday, 19th May 2020 
+
+**Goal**: Learn about Mocha.JS
+
+
+**Today's Progress**: Learnt about MochaJS
+
+**Thoughts:** Learnt about Mocha JS and how to write test cases using Mocha.JS. Also read about the importance of Test Driven Development 
+
+**Links to work:** 
+1. [AWS Lambda](https://ps011.github.io)
+
 ### Day 33: Monday, 18th May 2020 
 
 **Goal**: Learn about AWS Lambda

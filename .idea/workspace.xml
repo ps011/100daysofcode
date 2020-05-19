@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day34-MochaJS/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
@@ -19,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="706" column="96" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="96" />
+            <state relative-caret-position="574">
+              <caret line="727" column="142" lean-forward="true" selection-start-line="727" selection-start-column="19" selection-end-line="727" selection-end-column="142" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,10 +34,19 @@
         <entry file="file://$PROJECT_DIR$/log.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="137" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="137" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day34-MochaJS/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -54,9 +65,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -112,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day17-P2P Chat/public/client-2.html" />
         <option value="$PROJECT_DIR$/Day17-P2P Chat/public/client-1.html" />
         <option value="$PROJECT_DIR$/Day17-P2P Chat/public/client.js" />
         <option value="$PROJECT_DIR$/Day17-P2P-Chat/public/client.js" />
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/Day31-Blockchain/index.js" />
         <option value="$PROJECT_DIR$/Day32-Brand Logos/index.html" />
         <option value="$PROJECT_DIR$/Day32-Brand Logos/styles.css" />
+        <option value="$PROJECT_DIR$/Day34-MochaJS/test.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
       </list>
@@ -337,12 +348,12 @@
       <workItem from="1589204498698" duration="7292000" />
       <workItem from="1589464630563" duration="7236000" />
       <workItem from="1589640675426" duration="1627000" />
-      <workItem from="1589718663002" duration="8106000" />
+      <workItem from="1589718663002" duration="9390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173723000" />
+    <option name="totallyTimeSpent" value="175007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -399,7 +410,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day17-P2P-Chat/public/client-1.html" />
     <entry file="file://$PROJECT_DIR$/Day17-Voice Changer/server.js" />
     <entry file="file://$PROJECT_DIR$/Day17-Voice Changer/src/index.js" />
     <entry file="file://$PROJECT_DIR$/Day17-Voice Changer/public/day17-index.html" />
@@ -666,10 +676,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day34-MochaJS/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="706" column="96" selection-start-line="706" selection-start-column="19" selection-end-line="706" selection-end-column="96" />
+        <state relative-caret-position="574">
+          <caret line="727" column="142" lean-forward="true" selection-start-line="727" selection-start-column="19" selection-end-line="727" selection-end-column="142" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -679,8 +696,8 @@
     <entry file="file://$PROJECT_DIR$/log.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="137" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="137" />
           </first_editor>
           <second_editor />
         </state>
