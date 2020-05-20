@@ -1,3 +1,15 @@
+### Day 35: Wednesday, 20th May 2020 
+
+**Goal**: Create an Excel Processing Tool
+
+
+**Today's Progress**: Created the tool and deployed to heroku
+
+**Thoughts:** Built a route in my nodeJS application which accepts a CSV file and processes it to remove all the duplicate rows. 
+
+**Links to work:** 
+1. [Excel Processor](https://ps100daysofcode.herokuapp.com/excelprocessor-index.html)
+
 ### Day 34: Tuesday, 19th May 2020 
 
 **Goal**: Learn about Mocha.JS

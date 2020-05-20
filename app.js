@@ -16,6 +16,7 @@ const day22router = require('./Day22-GraphQL Server/server');
 const day27router = require('./Day27-KaggleAPI/kaggle-api');
 const day29router = require('./Day29-PassportJS/passport');
 const day30router = require('./Day30-CryptoBot/bot');
+const day35router = require('./Day35-Excel Processor/excel-processor');
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')));
 app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
+app.use(express.static(path.join(__dirname, 'Day35-Excel Processor')));
 app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
@@ -44,6 +46,7 @@ app.use('/day22', day22router);
 app.use('/day27', day27router);
 app.use('/day29', day29router);
 app.use('/day30', day30router);
+app.use('/day35', day35router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
