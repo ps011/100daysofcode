@@ -17,6 +17,7 @@ const day27router = require('./Day27-KaggleAPI/kaggle-api');
 const day29router = require('./Day29-PassportJS/passport');
 const day30router = require('./Day30-CryptoBot/bot');
 const day35router = require('./Day35-Excel Processor/excel-processor');
+const day36router = require('./Day36-Slack Notifier/notifier');
 
 const app = express();
 
@@ -47,6 +48,7 @@ app.use('/day27', day27router);
 app.use('/day29', day29router);
 app.use('/day30', day30router);
 app.use('/day35', day35router);
+app.use('/day36', day36router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

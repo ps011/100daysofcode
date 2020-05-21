@@ -19,8 +19,8 @@
     "coinbase-pro": "^0.9.0",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
-    "csv-stringify": "^5.5.0",
     "csv-parse": "^4.9.1",
+    "csv-stringify": "^5.5.0",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "express-graphql": "^0.9.0",
@@ -35,6 +35,7 @@
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "pdfkit": "^0.11.0",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "twilio": "^3.43.1"
   }
 }
