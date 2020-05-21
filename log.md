@@ -1,3 +1,15 @@
+### Day 36: Thursday, 21st May 2020 
+
+**Goal**: Create an Slack Notifier
+
+
+**Today's Progress**: Created the tool and deployed to heroku
+
+**Thoughts:** Built a route in my Node.JS app that sends a text notification to a user using twilio whenever the user receives a message on slack 
+
+**Links to work:** 
+1. [Slack Notifier](https://ps100daysofcode.herokuapp.com/)
+
 ### Day 35: Wednesday, 20th May 2020 
 
 **Goal**: Create an Excel Processing Tool
