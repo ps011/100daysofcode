@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day36-Slack Notifier/notifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day36-Slack Notifier/notifier.js" afterDir="false" />
-    </list>
+    <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -398,16 +396,15 @@
       <workItem from="1589204498698" duration="7292000" />
       <workItem from="1589464630563" duration="7236000" />
       <workItem from="1589640675426" duration="1627000" />
-      <workItem from="1589718663002" duration="14591000" />
+      <workItem from="1589718663002" duration="15054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180208000" />
+    <option name="totallyTimeSpent" value="180671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
