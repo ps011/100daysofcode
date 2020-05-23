@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Scratchpad</title>
+    <!--    TODO: replace this-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+</head>
+<body>
+<button id="clearBtn" onclick="clearCanvas()">Clear</button>
+
+<script>
+    const setup = () => {
+        createCanvas(displayWidth, displayHeight);
+        strokeWeight(10);
+        stroke(0);
+    };
+
+    const touchMoved = () => {
+        line(mouseX, mouseY, pmouseX, pmouseY);
+        return false;
+    };
+
+    const clearCanvas = () => {
+        clear();
+    };
+
+</script>
+</body>
+</html>
