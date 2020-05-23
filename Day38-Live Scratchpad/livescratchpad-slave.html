@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Scratchpad</title>
+    <script src="/lib/socket.io.js"></script>
+    <style>
+        html, body {
+            box-sizing: border-box;
+        }
+        .board {
+            border: 10px black outset;
+            height: 100vh;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            margin: auto;
+            display: block;
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>Prasheel's Whiteboard Slave</h1>
+<div class="board">
+    <canvas id="draw"></canvas>
+</div><script>
+    const canvas = document.querySelector('#draw');
+    const ctx = canvas.getContext('2d');
+    const socket = io.connect();
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    socket.on('canvasData', data => {
+        var img=new Image();
+        img.onload=start;
+        img.src=data;
+        function start(){
+            ctx.drawImage(img,0,0);
+    }})
+
+
+</script>
+
+<style>
+    html, body {
+        margin: 0;
+    }
+</style>
+
+</body>
+</html>

@@ -33,6 +33,7 @@ app.use(express.static(path.join(__dirname, 'Day11-Static Page Server/public')))
 app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
 app.use(express.static(path.join(__dirname, 'Day35-Excel Processor')));
 app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
+app.use(express.static(path.join(__dirname, 'Day38-Live Scratchpad')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 

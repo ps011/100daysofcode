@@ -6,7 +6,7 @@
 
 var app = require('../app');
 var http = require('http');
-var socket = require('../Day24-WebRTC/webrtc').io;
+var socket = require('../Day38-Live Scratchpad/server');
 const mongoUtil = require('../Day14-User API/database');
 /**
  * Get port from environment and store in Express.
