@@ -1,3 +1,13 @@
+### Day 39: Sunday, 24th May 2020 
+
+**Goal**: Setup Cezerin on Heroku
+
+
+**Today's Progress**: Setup the app and deployed to heroku
+
+**Thoughts:** Setup cezerin on heroku
+
+
 ### Day 38: Saturday, 23rd May 2020 
 
 **Goal**: Create a Live scratchpad
@@ -8,7 +18,7 @@
 **Thoughts:** Created a live scratchpad using socket.io. Learnt about transferring canvas data using sockets.
 
 **Links to work:** 
-1. [Facebook Messenger BOT](https://ps100daysofcode.herokuapp.com/)
+1. [Live Scratchpad](https://ps100daysofcode.herokuapp.com/)
 
 ### Day 37: Friday, 22nd May 2020 
 
