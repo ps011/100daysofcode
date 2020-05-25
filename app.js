@@ -19,6 +19,7 @@ const day30router = require('./Day30-CryptoBot/bot');
 const day35router = require('./Day35-Excel Processor/excel-processor');
 const day36router = require('./Day36-Slack Notifier/notifier');
 const day37router = require('./Day37-Messenger Webhook/index');
+const day40router = require('./Day40-Stripe Demo/server');
 
 const app = express();
 
@@ -34,6 +35,7 @@ app.use(express.static(path.join(__dirname, 'Day18-Text-Detection')));
 app.use(express.static(path.join(__dirname, 'Day35-Excel Processor')));
 app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
 app.use(express.static(path.join(__dirname, 'Day38-Live Scratchpad')));
+app.use(express.static(path.join(__dirname, 'Day40-Stripe Demo')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 
@@ -52,6 +54,7 @@ app.use('/day30', day30router);
 app.use('/day35', day35router);
 app.use('/day36', day36router);
 app.use('/day37', day37router);
+app.use('/day40', day40router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
