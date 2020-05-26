@@ -1,3 +1,15 @@
+### Day 41: Tuesday, 25th May 2020 
+
+**Goal**: Learn about Open Banking APIs
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Learnt about available APIs for open banking and also about the onboarding of applications.
+
+**Links to work:** 
+1. [Stripe Demo](https://ps100daysofcode.herokuapp.com/stripe-demo.html)
+
 ### Day 40: Monday, 24th May 2020 
 
 **Goal**: Setup a test application using Stripe
