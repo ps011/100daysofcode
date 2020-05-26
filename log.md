@@ -8,7 +8,7 @@
 **Thoughts:** Learnt about available APIs for open banking and also about the onboarding of applications.
 
 **Links to work:** 
-1. [Stripe Demo](https://ps100daysofcode.herokuapp.com/stripe-demo.html)
+1. [Open Banking](https://ps100daysofcode.herokuapp.com/stripe-demo.html)
 
 ### Day 40: Monday, 24th May 2020 
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -54,12 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -192,12 +192,12 @@
         <option value="$PROJECT_DIR$/Day38-Live Scratchpad/livescratchpad-master.html" />
         <option value="$PROJECT_DIR$/Day40-Stripe Demo/server.js" />
         <option value="$PROJECT_DIR$/Day40-Stripe Demo/stripe-index.html" />
-        <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/index.html" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/server.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/log.md" />
       </list>
     </option>
   </component>
@@ -376,18 +376,18 @@
       <workItem from="1589718663002" duration="18513000" />
       <workItem from="1590330406955" duration="1102000" />
       <workItem from="1590415664759" duration="1964000" />
-      <workItem from="1590502337897" duration="2410000" />
+      <workItem from="1590502337897" duration="2528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195360000" />
+    <option name="totallyTimeSpent" value="195478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30329043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -401,7 +401,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.62891567" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.62891567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -730,16 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -775,6 +765,16 @@
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
