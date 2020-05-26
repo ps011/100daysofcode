@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Balance (ICICI)</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #1C1C1C;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin: 16px;
+        }
+
+        .form__container {
+            background: #232428;
+            padding: 6rem 6.8rem;
+            width: 45rem;
+            border-radius: 1rem;
+        }
+        .form__heading {
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            margin-bottom: 2rem;
+        }
+        .form__unit {
+            margin-bottom: 2rem;
+            position: relative;
+            border-radius: .4rem;
+            overflow: hidden;
+        }
+        .form__label {
+            position: absolute;
+            top: 50%;
+            left: 2rem;
+            transform: translateY(-50%);
+            color: #8c8c8c;
+            font-size: 1.6rem;
+            text-transform: capitalize;
+            transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease, -webkit-transform 0.1s ease, -moz-transform 0.1s ease, -o-transform 0.1s ease;
+            pointer-events: none;
+        }
+        .form__input {
+            padding: 1.6rem 2rem 0;
+            width: 100%;
+            background: #333;
+            border: none;
+            outline: none;
+            color: #fff;
+            line-height: 5rem;
+            height: 5rem;
+            border-radius: .4rem;
+            border: 2px solid transparent;
+            transition: all .3s;
+        }
+        .form__input:focus {
+            background: #454545;
+            border-color: #0094E4;
+        }
+        .form__input:focus ~ .form__label, .form__input:not(:placeholder-shown) ~ .form__label {
+            font-size: 1.2rem;
+            transform: translateY(0);
+            top: .7rem;
+        }
+        .form__submit__button {
+            background: #0094E4;
+            display: block;
+            border: none;
+            height: 5rem;
+            width: 100%;
+            color: #fff;
+            border-radius: .4rem;
+            outline: none;
+            font-size: 1.6rem;
+            cursor: pointer;
+            transition: all .3s;
+            margin-top: 4rem;
+        }
+        .form__submit__button:hover {
+            background: #0073b1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="form">
+    <div class="form__container">
+            <h1 class="form__heading">
+                Check Balance
+            </h1>
+            <div class="form__unit">
+                <input placeholder=" " type="text" class="form__input" id="account" name="account">
+                <label for="account" class="form__label">Account</label>
+            </div>
+            <div class="form__unit">
+                <input placeholder=" " type="text" class="form__input" id="mobile" name="mobile">
+                <label for="mobile" class="form__label">Mobile</label>
+            </div>
+            <div class="form__submit">
+                <button class="form__submit__button" id="check">
+                    Check
+                </button>
+            </div>
+        <h1 id="balance"></h1>
+    </div>
+</div>
+
+<script>
+const mobile = document.querySelector('#mobile');
+const account = document.querySelector('#account');
+const balance = document.querySelector('#balance');
+const check = document.querySelector('#check');
+const fetchBalance = async () => {
+    const url = new URL('http://localhost:3000/day41');
+    const params = {mobile: mobile.value, account: account.value};
+    url.search = new URLSearchParams(params).toString();
+    let result = await fetch(url);
+    result = await result.json();
+    balance.innerHTML =`Your account balance is INR${result.balance}`;
+};
+
+check.addEventListener('click', fetchBalance);
+</script>
+</body>
+</html>
