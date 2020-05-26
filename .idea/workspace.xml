@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day41-Open Banking/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12795">
-              <caret line="853" column="84" selection-start-line="853" selection-start-column="84" selection-end-line="853" selection-end-column="84" />
+            <state relative-caret-position="528">
+              <caret line="874" column="89" lean-forward="true" selection-start-line="874" selection-start-column="89" selection-end-line="874" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -69,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="87">
               <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
             </state>
           </provider>
@@ -195,12 +192,12 @@
         <option value="$PROJECT_DIR$/Day38-Live Scratchpad/livescratchpad-master.html" />
         <option value="$PROJECT_DIR$/Day40-Stripe Demo/server.js" />
         <option value="$PROJECT_DIR$/Day40-Stripe Demo/stripe-index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/index.html" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/server.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -234,11 +231,6 @@
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day41-Open Banking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,9 +341,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="npm.compile:day-17" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.start" />
-      <item itemvalue="npm.compile:day-17" />
     </list>
     <recent_temporary>
       <list>
@@ -384,24 +376,24 @@
       <workItem from="1589718663002" duration="18513000" />
       <workItem from="1590330406955" duration="1102000" />
       <workItem from="1590415664759" duration="1964000" />
-      <workItem from="1590502337897" duration="2223000" />
+      <workItem from="1590502337897" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195173000" />
+    <option name="totallyTimeSpent" value="195360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3746988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,16 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12795">
-          <caret line="853" column="84" selection-start-line="853" selection-start-column="84" selection-end-line="853" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day40-Stripe Demo/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -781,8 +763,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="87">
           <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="874" column="89" lean-forward="true" selection-start-line="874" selection-start-column="89" selection-end-line="874" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
