@@ -1,3 +1,27 @@
+### Day 43: Thursday, 27th May 2020 
+
+**Goal**: Learn about App deployments on Heroku
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** N/A
+
+**Links to work:** 
+1. [Heroku Deployment](https://ps100daysofcode.herokuapp.com/stripe-demo.html)
+
+### Day 42: Wednesday, 26th May 2020 
+
+**Goal**: Learn about Swagger UI
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Learnt about Swagger UI and it's integration with Node.JS
+
+**Links to work:** 
+1. [Swagger UI](https://ps100daysofcode.herokuapp.com/stripe-demo.html)
+
 ### Day 41: Tuesday, 25th May 2020 
 
 **Goal**: Learn about Open Banking APIs
