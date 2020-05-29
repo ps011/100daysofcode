@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +17,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2344" lean-forward="true" selection-start-column="2344" selection-end-column="2344" />
+            <state relative-caret-position="483">
+              <caret line="935" column="100" selection-start-line="935" selection-start-column="100" selection-end-line="935" selection-end-column="100" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="105" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -38,7 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;/div&gt;</find>
       <find>photos/200</find>
       <find>https://picsum.photos/400</find>
       <find>null</find>
@@ -68,6 +82,7 @@
       <find>console</find>
       <find>class</find>
       <find>chunk</find>
+      <find>main</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
@@ -134,12 +149,12 @@
         <option value="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" />
         <option value="$PROJECT_DIR$/Day42-Swagger UI/swagger.js" />
         <option value="$PROJECT_DIR$/Day43-Heroku Deployment/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/src/App.css" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/src/App.js" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/public/index.html" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html" />
+        <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -174,24 +189,6 @@
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day44-Article Viewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day44-Article Viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="article-viewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day44-Article Viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="article-viewer" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -204,6 +201,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -339,25 +337,25 @@
       <workItem from="1590502337897" duration="2579000" />
       <workItem from="1590595460023" duration="175000" />
       <workItem from="1590676336145" duration="1369000" />
-      <workItem from="1590761737747" duration="1756000" />
+      <workItem from="1590761737747" duration="2023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198829000" />
+    <option name="totallyTimeSpent" value="199096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30758226" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30758226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3746988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,26 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13740">
-          <caret line="916" column="26" selection-start-line="916" selection-start-column="26" selection-end-line="916" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -746,8 +724,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2344" lean-forward="true" selection-start-column="2344" selection-end-column="2344" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="105" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="935" column="100" selection-start-line="935" selection-start-column="100" selection-end-line="935" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
