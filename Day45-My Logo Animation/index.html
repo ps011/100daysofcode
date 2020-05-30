@@ -16,5 +16,21 @@
     <span class="word e">E</span>
     <span class="word l">L</span>
 </div>
+
+<script>
+    const parentDiv = document.querySelector('.prasheel');
+    setInterval(() => {
+        parentDiv.style.background = `linear-gradient(to right bottom, ${getRandomColor()}, ${getRandomColor()})`
+    }, 5000)
+
+    const getRandomColor = () => {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
 </body>
 </html>

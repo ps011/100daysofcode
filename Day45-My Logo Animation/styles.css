@@ -12,6 +12,11 @@
     color: #fff;
     width: 100%;
     height: 100vh;
+    -webkit-transition: backgound-image 4000ms ease;
+    -moz-transition: backgound-image 4000ms ease;
+    -ms-transition: backgound-image 4000ms ease;
+    -o-transition: backgound-image 4000ms ease;
+    transition: backgound-image 4000ms ease;
 }
 
 .word {
@@ -26,43 +31,43 @@
 }
 
 .prasheel span.r {
-  
+
     position: relative;
     animation: .3s ps;
 }
 
 .prasheel span.a {
-  
+
     position: relative;
     animation: .4s ps;
 }
 
 .prasheel span.s {
-  
+
     position: relative;
     animation: .5s ps;
 }
 
 .prasheel span.h {
-  
+
     position: relative;
     animation: .6s ps;
 }
 
 .prasheel span.e {
-  
+
     position: relative;
     animation: .7s ps;
 }
 
 .prasheel span.e {
-  
+
     position: relative;
     animation: .8s ps;
 }
 
 .prasheel span.l {
-  
+
     position: relative;
     animation: .9s ps;
 }
