@@ -38,6 +38,7 @@ app.use(express.static(path.join(__dirname, 'Day24-WebRTC')));
 app.use(express.static(path.join(__dirname, 'Day38-Live Scratchpad')));
 app.use(express.static(path.join(__dirname, 'Day40-Stripe Demo')));
 app.use(express.static(path.join(__dirname, 'Day41-Open Banking')));
+app.use(express.static(path.join(__dirname, 'Day44-Article Viewer')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 
