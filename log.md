@@ -1,3 +1,15 @@
+### Day 45: Saturday, 29th May 2020 
+
+**Goal**: Create a simple CSS Animation
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created a CSS animation along with randomly changing backgrounds. Refreshed the concepts of animation.
+
+**Links to work:** 
+1. [CSS Animation](https://ps100daysofcode.herokuapp.com/Day44-Article%20Viewer/article-viewer/build/)
+
 ### Day 44: Friday, 28th May 2020 
 
 **Goal**: Create a React App to view News Articles
@@ -8,7 +20,7 @@
 **Thoughts:** Read about the news API and refreshed the concept of state in React
 
 **Links to work:** 
-1. [Heroku Deployment](https://ps100daysofcode.herokuapp.com/Day44-Article%20Viewer/article-viewer/build/)
+1. [News Article](https://ps100daysofcode.herokuapp.com/Day44-Article%20Viewer/article-viewer/build/)
 
 ### Day 43: Thursday, 27th May 2020 
 
