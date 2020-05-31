@@ -13,7 +13,9 @@ class App extends Component {
     }
 
     async getNews () {
-        let news = await fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=f7ab95d1410a4fd8a89cc7a08ed8d8fc')
+        let news = await fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=f7ab95d1410a4fd8a89cc7a08ed8d8fc', {
+            mode: 'no-cors'
+        });
         news = await news.json();
 
         this.setState({news: news.articles});
