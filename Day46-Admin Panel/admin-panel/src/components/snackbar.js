@@ -19,28 +19,26 @@ const useStyles = makeStyles((theme) => ({
 
 export default function NotificationSnackbar(props) {
     const classes = useStyles();
-    const [open, setOpen] = React.useState(false);
+    // const [setOpen] = React.useState(false);
 
-    const handleClick = () => {
-        setOpen(true);
-    };
+    // const handleClick = () => {
+    //     setOpen(true);
+    // };
 
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
             return;
         }
-
-        setOpen(false);
+        return;
+        // setOpen(false);
     };
 
     return (
         <div className={classes.root}>
-            <Button variant="outlined" onClick={handleClick}>
-                Open success snackbar
-            </Button>
-            <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-                <Alert onClose={handleClose} severity="success">
-                    This is a success message!
+
+            <Snackbar open={props.show} autoHideDuration={6000} onClose={handleClose}>
+                <Alert onClose={handleClose} severity={props.color}>
+                    {props.text}
                 </Alert>
             </Snackbar>
         </div>
