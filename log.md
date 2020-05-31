@@ -1,3 +1,15 @@
+### Day 46: Sunday, 30th May 2020 
+
+**Goal**: Create a mock Admin Panel
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created a mock admin panel using Material CSS and React
+
+**Links to work:** 
+1. [Admin Panel](https://ps100daysofcode.herokuapp.com/)
+
 ### Day 45: Saturday, 29th May 2020 
 
 **Goal**: Create a simple CSS Animation
@@ -8,7 +20,7 @@
 **Thoughts:** Created a CSS animation along with randomly changing backgrounds. Refreshed the concepts of animation.
 
 **Links to work:** 
-1. [CSS Animation](https://ps100daysofcode.herokuapp.com/Day44-Article%20Viewer/article-viewer/build/)
+1. [CSS Animation](https://ps100daysofcode.herokuapp.com/)
 
 ### Day 44: Friday, 28th May 2020 
 
