@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="998" column="60" selection-start-line="998" selection-start-column="60" selection-end-line="998" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
-                <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+                <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,8 +156,8 @@
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -348,18 +359,18 @@
       <workItem from="1590761737747" duration="2047000" />
       <workItem from="1590842435837" duration="4428000" />
       <workItem from="1590922829749" duration="7199000" />
-      <workItem from="1591016752881" duration="5726000" />
+      <workItem from="1591016752881" duration="5934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216473000" />
+    <option name="totallyTimeSpent" value="216681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3111588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3111588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -773,23 +784,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="1001" column="133" selection-start-line="1001" selection-start-column="133" selection-end-line="1001" selection-end-column="133" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
-            <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="64" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="998" column="60" selection-start-line="998" selection-start-column="60" selection-end-line="998" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
