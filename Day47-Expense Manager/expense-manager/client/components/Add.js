@@ -61,7 +61,7 @@ class Add extends React.Component {
         this.insertNewExpense(this);
     }
     insertNewExpense(e) {
-        axios.post('/insert',
+        axios.post('/day47/insert',
             querystring.stringify({
                 desc: e.state.description,
                 amount: e.state.amount,

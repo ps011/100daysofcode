@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2385">
-              <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+            <state relative-caret-position="-434">
+              <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -69,20 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -91,10 +79,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
+            <state relative-caret-position="145">
+              <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -226,7 +226,6 @@
         <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.ejs" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css/App.css" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.js" />
@@ -236,9 +235,10 @@
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" />
       </list>
     </option>
   </component>
@@ -466,12 +466,12 @@
       <workItem from="1590761737747" duration="2047000" />
       <workItem from="1590842435837" duration="4428000" />
       <workItem from="1590922829749" duration="7199000" />
-      <workItem from="1591016752881" duration="4941000" />
+      <workItem from="1591016752881" duration="5031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215688000" />
+    <option name="totallyTimeSpent" value="215778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -822,16 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/node_modules/@babel/core/lib/config/config-descriptors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -881,20 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -903,8 +883,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="292">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

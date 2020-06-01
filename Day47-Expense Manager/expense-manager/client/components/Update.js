@@ -71,7 +71,7 @@ class Update extends React.Component {
         this.update(this);
     }
     update(e) {
-        axios.post('/update',
+        axios.post('/day47/update',
             querystring.stringify({
                 _id: e.state.id,
                 description: e.state.description,

@@ -19,7 +19,7 @@ class Delete extends React.Component {
         this.delete(this);
     }
     delete(e){
-        axios.get('/delete?id='+e.state.id)
+        axios.get('/day47/delete?id='+e.state.id)
             .then(function(response) {
 
             });
