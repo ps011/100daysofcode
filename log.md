@@ -1,3 +1,15 @@
+### Day 47: Monday, 1st June 2020 
+
+**Goal**: Setup a MERN Stack app
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created a MERN App and learnt about how can we structure both client and server in a single repository
+
+**Links to work:** 
+1. [Expense Manager](https://ps100daysofcode.herokuapp.com/day47)
+
 ### Day 46: Sunday, 30th May 2020 
 
 **Goal**: Create a mock Admin Panel
