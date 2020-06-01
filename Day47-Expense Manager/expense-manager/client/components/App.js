@@ -4,6 +4,7 @@ import axios from 'axios';
 import Add from './Add';
 import Update from './Update';
 import Delete from './Delete';
+import '../css/App.css';
 export default class App extends React.Component {
     constructor() {
         super();
