@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day29-PassportJS/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day29-PassportJS/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/42f830e7c53285b6cc3089ffd5873277" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,34 +27,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="980" column="74" selection-start-line="980" selection-start-column="74" selection-end-line="980" selection-end-column="74" />
+            <state relative-caret-position="2385">
+              <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day46-Admin Panel/admin-panel/build/index.html">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day29-PassportJS/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-117">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -117,18 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db.json" />
-        <option value="$PROJECT_DIR$/Day27-KaggleAPI/kaggle-api.js" />
-        <option value="$PROJECT_DIR$/Day28-Uppy/uppy.js" />
-        <option value="$PROJECT_DIR$/Day28-Uppy/inde.html" />
-        <option value="$PROJECT_DIR$/Day29-PassportJS/user.schema.js" />
-        <option value="$PROJECT_DIR$/Day29-PassportJS/config.js" />
-        <option value="$PROJECT_DIR$/Day14-User API/user.schema.js" />
-        <option value="$PROJECT_DIR$/Day29-PassportJS/passport.js" />
-        <option value="$PROJECT_DIR$/images/bot.js" />
-        <option value="$PROJECT_DIR$/Day30-CryptoBot/bot.js" />
-        <option value="$PROJECT_DIR$/Day31-Blockchain/block-chain.js" />
-        <option value="$PROJECT_DIR$/Day31-Blockchain/block.js" />
         <option value="$PROJECT_DIR$/Day31-Blockchain/index.js" />
         <option value="$PROJECT_DIR$/Day32-Brand Logos/index.html" />
         <option value="$PROJECT_DIR$/Day32-Brand Logos/styles.css" />
@@ -153,7 +217,6 @@
         <option value="$PROJECT_DIR$/Day43-Heroku Deployment/index.html" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/src/App.css" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/public/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Day45-My Logo Animation/index.html" />
         <option value="$PROJECT_DIR$/Day45-My Logo Animation/styles.css" />
         <option value="$PROJECT_DIR$/Day46-Admin Panel/admin-panel/public/index.html" />
@@ -168,6 +231,19 @@
         <option value="$PROJECT_DIR$/Day46-Admin Panel/admin-panel/build/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.ejs" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css/App.css" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js" />
+        <option value="$PROJECT_DIR$/Day29-PassportJS/config.js" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json" />
+        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -202,6 +278,36 @@
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day47-Expense Manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day47-Expense Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="expense-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day47-Expense Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="expense-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day47-Expense Manager" type="462c0819:PsiDirectoryNode" />
+              <item name="expense-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,19 +338,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Day30-CryptoBot" />
-      <recent name="$PROJECT_DIR$/Day11-Static Page Server" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Day17-P2P-Chat/public" />
-      <recent name="$PROJECT_DIR$/Day17-P2P Chat/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/Day38-Live Scratchpad" />
       <recent name="$PROJECT_DIR$/Day35-Excel Processor" />
       <recent name="$PROJECT_DIR$/Day29-PassportJS" />
       <recent name="$PROJECT_DIR$/public/27" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client" />
+      <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components" />
+      <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css" />
+      <recent name="$PROJECT_DIR$/Day30-CryptoBot" />
+      <recent name="$PROJECT_DIR$/Day11-Static Page Server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.start MERN">
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -296,6 +402,21 @@
       </envs>
       <method v="2" />
     </configuration>
+    <configuration name="start MERN" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs>
+        <env name="USERNAME" value="techdom11471@gmail.com" />
+        <env name="PASSWORD" value="appliedcswithandroid" />
+        <env name="DB_USERNAME" value="ps11" />
+        <env name="DB_PASSWORD" value="100daysofcode" />
+        <env name="SHOPIFY_API_KEY" value="864b6970ecdf6537f795784a29f9e398" />
+        <env name="SHOPIFY_API_PASSWORD " value="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" />
+        <env name="ICICI_API_KEY" value="l7xxc808bd38670f464db0fc240aeaf4adae" />
+      </envs>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -314,6 +435,7 @@
     <list>
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.start MERN" />
       <item itemvalue="npm.compile:day-17" />
     </list>
     <recent_temporary>
@@ -352,25 +474,25 @@
       <workItem from="1590676336145" duration="1369000" />
       <workItem from="1590761737747" duration="2047000" />
       <workItem from="1590842435837" duration="4428000" />
-      <workItem from="1590922829749" duration="6563000" />
+      <workItem from="1590922829749" duration="7199000" />
+      <workItem from="1591016752881" duration="4728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210111000" />
+    <option name="totallyTimeSpent" value="215475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3111588" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3111588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="npm" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3746988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3746988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,7 +500,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32650602" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32650602" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -415,99 +537,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day29-PassportJS/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day14-User API/user.schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day29-PassportJS/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day31-Blockchain/block-chain.js" />
-    <entry file="file://$PROJECT_DIR$/Day31-Blockchain/block.js" />
-    <entry file="file://$PROJECT_DIR$/Day31-Blockchain/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day32-Brand Logos/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day32-Brand Logos/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day33-AWS Lambda/aws-lambda/handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day34-MochaJS/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day35-Excel Processor/excel-processor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18-Text-Detection/text-detection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day30-CryptoBot/bot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18-Text-Detection/textdetection-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day18-Text-Detection/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day35-Excel Processor/excelprocessor-index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -529,17 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!block;n#normalizePort#0" />
-            <element signature="n#!!block;n#onError#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day45-My Logo Animation/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -746,10 +757,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day46-Admin Panel/admin-panel/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -763,13 +777,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Day46-Admin Panel/admin-panel/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/mern.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!block;n#normalizePort#0" />
+            <element signature="n#!!block;n#onError#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day14-User API/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day14-User API/user.schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/node_modules/@babel/core/lib/config/config-descriptors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="57" column="103" selection-start-line="57" selection-start-column="103" selection-end-line="57" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day29-PassportJS/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
