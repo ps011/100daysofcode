@@ -1,0 +1,108 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    position: relative;
+    /*margin: 50% 0 0 50%;*/
+}
+
+.polygon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 10px solid black;
+    display: block;
+    animation: spin 20s ease-in-out 0.5s infinite backwards;
+}
+
+.one {
+    width: 500px;
+    height: 500px;
+    background: salmon;
+}
+.two {
+    width: 450px;
+    height: 450px;
+    background: lawngreen;
+}
+
+.three {
+    width: 400px;
+    height: 400px;
+    background: yellow;
+}
+
+.four {
+    width: 350px;
+    height: 350px;
+    background: #03A9F4;
+}
+
+.five {
+    width: 300px;
+    height: 300px;
+    background: magenta;
+}
+
+.six {
+    width: 250px;
+    height: 250px;
+    background: deeppink;
+}
+
+.seven {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.eight {
+    width: 150px;
+    height: 150px;
+    background: lightgreen;
+}
+
+.nine {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+}
+
+.ten {
+    width: 50px;
+    height: 50px;
+    background: dodgerblue;
+}
+
+@media (min-width: 767px) {
+   .container {
+       margin: 15%;
+   }
+}
+
+@media (min-width: 991px) {
+    .container {
+        margin: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 25%;
+    }
+}
+
+@media (min-width: 1399px) {
+    .container {
+        margin: 30%;
+    }
+}
+
+
+@keyframes spin {
+    100% {
+    transform: rotate(360deg);
+}
+}
