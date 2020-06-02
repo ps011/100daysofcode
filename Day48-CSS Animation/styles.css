@@ -5,7 +5,6 @@ body {
 .container {
     display: block;
     position: relative;
-    /*margin: 50% 0 0 50%;*/
 }
 
 .polygon {
@@ -13,7 +12,7 @@ body {
     top: 15px;
     left: 15px;
     border: 10px solid black;
-    display: block;
+    display: inline-block;
     animation: spin 20s ease-in-out 0.5s infinite backwards;
 }
 
@@ -90,13 +89,13 @@ body {
 
 @media (min-width: 1200px) {
     .container {
-        margin: 25%;
+        margin: 5% 0 0 25%;
     }
 }
 
 @media (min-width: 1399px) {
     .container {
-        margin: 30%;
+        margin: 5% 0 0 30%;
     }
 }
 
