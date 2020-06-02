@@ -1,3 +1,15 @@
+### Day 48: Tuesday, 2nd June 2020 
+
+**Goal**: Create a CSS Animation
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created a spinning CSS animation.
+
+**Links to work:** 
+1. [Expense Manager](https://ps100daysofcode.herokuapp.com/day47)
+
 ### Day 47: Monday, 1st June 2020 
 
 **Goal**: Setup a MERN Stack app
