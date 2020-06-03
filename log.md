@@ -8,7 +8,7 @@
 **Thoughts:** Created an icon for hamburger menu that animates on click
 
 **Links to work:** 
-1. [Mandala Animation](https://ps011.github.io/100daysofcode/Day49-Hamburger%20Animation/index.html)
+1. [Hamburger Animation](https://ps011.github.io/100daysofcode/Day49-Hamburger%20Animation/index.html)
 
 ### Day 48: Tuesday, 2nd June 2020 
 
