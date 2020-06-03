@@ -1,3 +1,15 @@
+### Day 49: Wednesday, 3rd June 2020 
+
+**Goal**: Create a Hamburger Menu icon and add animation.
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created an icon for hamburger menu that animates on click
+
+**Links to work:** 
+1. [Mandala Animation](https://ps011.github.io/100daysofcode/Day49-Hamburger%20Animation/index.html)
+
 ### Day 48: Tuesday, 2nd June 2020 
 
 **Goal**: Create a CSS Animation
@@ -8,7 +20,7 @@
 **Thoughts:** Created a spinning CSS animation.
 
 **Links to work:** 
-1. [Expense Manager](https://ps100daysofcode.herokuapp.com/day47)
+1. [Mandala Animation](https://ps011.github.io/100daysofcode/Day48-CSS%2-Animation/index.html)
 
 ### Day 47: Monday, 1st June 2020 
 
