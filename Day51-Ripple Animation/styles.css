@@ -1,0 +1,66 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: lightblue;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.circle {
+    left: 25px;
+    top: 25px;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    box-shadow:  4px 8px 16px 0 rgba(0,0,0,0.5);
+    animation: ripple 2s cubic-bezier(.21,.98,.6,.99) alternate infinite;
+}
+
+.one {
+    left:0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.two {
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
+.three {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.four {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
