@@ -1,3 +1,15 @@
+### Day 51: Friday, 5th June 2020 
+
+**Goal**: Create a Ripple Animation
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created an the animation. Learnt about some more important CSS properties.
+
+**Links to work:** 
+1. [Hamburger Animation](https://ps011.github.io/100daysofcode/Day51-Ripple%20Animation/index.html)
+
 ### Day 50: Thursday, 4th June 2020 
 
 **Goal**: Create a Day Night Animation
