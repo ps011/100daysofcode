@@ -1,3 +1,15 @@
+### Day 52: Saturday, 6th June 2020 
+
+**Goal**: Create a Graph
+
+
+**Today's Progress**: Created the app and deployed to heroku
+
+**Thoughts:** Created the Graph and Tooltips
+
+**Links to work:** 
+1. [Statistics](https://ps011.github.io/100daysofcode/Day52-Graph/index.html)
+
 ### Day 51: Friday, 5th June 2020 
 
 **Goal**: Create a Ripple Animation
@@ -8,7 +20,7 @@
 **Thoughts:** Created an the animation. Learnt about some more important CSS properties.
 
 **Links to work:** 
-1. [Hamburger Animation](https://ps011.github.io/100daysofcode/Day51-Ripple%20Animation/index.html)
+1. [Ripple](https://ps011.github.io/100daysofcode/Day51-Ripple%20Animation/index.html)
 
 ### Day 50: Thursday, 4th June 2020 
 
@@ -20,7 +32,7 @@
 **Thoughts:** Created an the animation. Learnt about some more important CSS properties.
 
 **Links to work:** 
-1. [Hamburger Animation](https://ps011.github.io/100daysofcode//Day50-Day%20Night%20Animation/index.html)
+1. [Day Night Animation](https://ps011.github.io/100daysofcode//Day50-Day%20Night%20Animation/index.html)
 
 ### Day 49: Wednesday, 3rd June 2020 
 
