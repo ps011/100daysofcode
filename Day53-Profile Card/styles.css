@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #CA7C4E;
+    background: -webkit-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+    background: -moz-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+    background: -o-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+    background: linear-gradient(to top right, #EEBE6C 0%, #CA7C4E 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEBE6C', endColorstr='#CA7C4E',GradientType=1 );
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #786450;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    height: 100%;
+    flex-grow: 1.2;
+}
+
+.name {
+    flex-grow: 0.2;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.title {
+    flex-grow: 3.5;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 100%;
+    flex-grow: 0.8;
+}
+
+img {
+    flex-grow: 1.5;
+    border-radius: 50%;
+    width: 70px;
+    max-height: 70px;
+    border: 2px solid #786450;
+    margin-top: 24px;
+}
+
+button {
+    flex-grow: 0.5;
+    width: 120px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #786450;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #786450;
+    cursor: pointer;
+}
+
+.stats div {
+    padding-top: 20px;
+    margin: 1px;
+    flex-grow: 1;
+    background: #F5E8DF;
+    text-align: center;
+    color: #786450;
+}
+
+.number {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.parameter {
+
+    margin: 0;
+    font-size: 11px;
+}
