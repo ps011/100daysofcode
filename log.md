@@ -1,3 +1,15 @@
+### Day 53: Sunday, 7th June 2020 
+
+**Goal**: Create a Profile Card
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** Created the Profile Card
+
+**Links to work:** 
+1. [Profile Card](https://ps011.github.io/100daysofcode/Day53-Profile%20Card/index.html)
+
 ### Day 52: Saturday, 6th June 2020 
 
 **Goal**: Create a Graph
