@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Notification Panel</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://100dayscss.com/codepen/css/font-awesome.min.css">
 </head>
 <body>
 <div class="frame">
@@ -15,7 +16,7 @@
                 <div class="circle"></div>
             </div>
             <span class="title">Notifications</span>
-            <input type="text" class="search-input" placeholder="Search ...">
+            <input type="search" class="search-input" placeholder="Search ...">
             <div class="fa fa-search search-icon"></div>
         </div>
 
@@ -52,6 +53,18 @@
 </div>
 </body>
 <script>
+    const hamburger = document.querySelector('.menu-icon');
+    const menu = document.querySelector('.menu');
+    const panel = document.querySelector('.panel');
+    hamburger.addEventListener('click', () => {
+        panel.classList.toggle('show-menu');
+        menu.classList.toggle('active');
+    })
 
+    const searchIcon = document.querySelector('.search-icon');
+    const searchInput = document.querySelector('input');
+    searchIcon.addEventListener('click', () => {
+        searchInput.classList.toggle('active');
+    })
 </script>
 </html>
