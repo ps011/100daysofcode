@@ -1,3 +1,15 @@
+### Day 54: Monday, 8th June 2020 
+
+**Goal**: Create a Notification Panel
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** Created the Notification Panel
+
+**Links to work:** 
+1. [Notification Panel](https://ps011.github.io/100daysofcode/Day54-Notification%20Panel/index.html)
+
 ### Day 53: Sunday, 7th June 2020 
 
 **Goal**: Create a Profile Card
