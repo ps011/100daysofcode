@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day55-Metaballs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day55-Metaballs/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,34 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/Day55-Metaballs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="1148" column="72" lean-forward="true" selection-start-line="1148" selection-start-column="72" selection-end-line="1148" selection-end-column="72" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="100" lean-forward="true" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day54-Notification Panel/styles.css">
+        <entry file="file://$PROJECT_DIR$/Day55-Metaballs/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="210" column="47" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
+            <state relative-caret-position="390">
+              <caret line="168" column="58" lean-forward="true" selection-start-line="168" selection-start-column="58" selection-end-line="168" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -63,9 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border</find>
-      <find>flip-card-inner</find>
-      <find>clien</find>
       <find>Socketiop2p</find>
       <find>span</find>
       <find>button-t</find>
@@ -93,6 +75,9 @@
       <find>comparePass</find>
       <find>getToken</find>
       <find>day</find>
+      <find>position: relative</find>
+      <find>filter: blur(15px);</find>
+      <find>animation: rotate 2.7s ease-in-out 0.2s infinite;</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
@@ -110,6 +95,8 @@
       <replace>background</replace>
       <replace>backgound-image</replace>
       <replace>ps infin</replace>
+      <replace>position: absolute</replace>
+      <replace>animation: rotate 2.7s ease-in-out 0.2s infinite;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -118,8 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day40-Stripe Demo/stripe-index.html" />
-        <option value="$PROJECT_DIR$/Day41-Open Banking/index.html" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/server.js" />
         <option value="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" />
         <option value="$PROJECT_DIR$/Day42-Swagger UI/swagger.js" />
@@ -169,6 +154,8 @@
         <option value="$PROJECT_DIR$/Day54-Notification Panel/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/Day55-Metaballs/index.html" />
+        <option value="$PROJECT_DIR$/Day55-Metaballs/styles.css" />
       </list>
     </option>
   </component>
@@ -183,7 +170,7 @@
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="62" />
     <option name="y" value="56" />
     <option name="width" value="1440" />
@@ -197,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,11 +192,15 @@
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day55-Metaballs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,18 +379,19 @@
       <workItem from="1591462057018" duration="68000" />
       <workItem from="1591532030810" duration="3961000" />
       <workItem from="1591634347396" duration="4425000" />
-      <workItem from="1591645141678" duration="135000" />
+      <workItem from="1591645141678" duration="197000" />
+      <workItem from="1591712677105" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246572000" />
+    <option name="totallyTimeSpent" value="248289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33690986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33690986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -452,16 +445,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day46-Admin Panel/admin-panel/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day46-Admin Panel/admin-panel/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -815,30 +798,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day54-Notification Panel/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="210" column="47" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="1148" column="72" lean-forward="true" selection-start-line="1148" selection-start-column="72" selection-end-line="1148" selection-end-column="72" />
+        <state relative-caret-position="17220">
+          <caret line="1148" column="72" selection-start-line="1148" selection-start-column="72" selection-end-line="1148" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day54-Notification Panel/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="210" column="47" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="100" lean-forward="true" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day55-Metaballs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day55-Metaballs/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="168" column="58" lean-forward="true" selection-start-line="168" selection-start-column="58" selection-end-line="168" selection-end-column="58" />
         </state>
       </provider>
     </entry>
