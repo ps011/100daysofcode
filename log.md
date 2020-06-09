@@ -1,3 +1,15 @@
+### Day 55: Tuesday, 9th June 2020 
+
+**Goal**: Create a Metaball Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+1. [Metaball](https://ps011.github.io/100daysofcode/Day55-Metaballs/index.html)
+
 ### Day 54: Monday, 8th June 2020 
 
 **Goal**: Create a Notification Panel
