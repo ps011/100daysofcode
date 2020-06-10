@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="" />
+    <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day56-Weather Card/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day56-Weather Card/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,50 +16,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="1169" column="23" lean-forward="true" selection-start-line="1169" selection-start-column="23" selection-end-line="1169" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day55-Metaballs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day55-Metaballs/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="169" column="15" lean-forward="true" selection-end-line="194" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Day56-Weather Card/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Day56-Weather Card/styles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="382">
+                  <caret line="200" column="17" lean-forward="true" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,10 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Socketiop2p</find>
-      <find>span</find>
-      <find>button-t</find>
-      <find>name</find>
       <find>activeSockets</find>
       <find>createUserItemContainer</find>
       <find>&quot;Apaches</find>
@@ -98,6 +85,10 @@
       <find>position: relative</find>
       <find>filter: blur(15px);</find>
       <find>animation: rotate 2.7s ease-in-out 0.2s infinite;</find>
+      <find>big</find>
+      <find>bottom: 80px</find>
+      <find>-</find>
+      <find>.medium</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
@@ -117,6 +108,13 @@
       <replace>ps infin</replace>
       <replace>position: absolute</replace>
       <replace>animation: rotate 2.7s ease-in-out 0.2s infinite;</replace>
+      <replace>big-</replace>
+      <replace>medium</replace>
+      <replace>small</replace>
+      <replace>medium-</replace>
+      <replace>medium</replace>
+      <replace>small-</replace>
+      <replace>.small</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day41-Open Banking/server.js" />
-        <option value="$PROJECT_DIR$/Day41-Open Banking/openbanking-index.html" />
-        <option value="$PROJECT_DIR$/Day42-Swagger UI/swagger.js" />
         <option value="$PROJECT_DIR$/Day43-Heroku Deployment/index.html" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/src/App.css" />
         <option value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/public/index.html" />
@@ -176,6 +171,9 @@
         <option value="$PROJECT_DIR$/Day55-Metaballs/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/Day56-Weather Card/inde.html" />
+        <option value="$PROJECT_DIR$/Day56-Weather Card/styles.css" />
+        <option value="$PROJECT_DIR$/Day56-Weather Card/index.html" />
       </list>
     </option>
   </component>
@@ -215,7 +213,7 @@
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day55-Metaballs" type="462c0819:PsiDirectoryNode" />
+              <item name="Day56-Weather Card" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,15 +398,17 @@
       <workItem from="1591532030810" duration="3961000" />
       <workItem from="1591634347396" duration="4425000" />
       <workItem from="1591645141678" duration="197000" />
-      <workItem from="1591712677105" duration="1953000" />
+      <workItem from="1591712677105" duration="2166000" />
+      <workItem from="1591797545759" duration="4387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248587000" />
+    <option name="totallyTimeSpent" value="253187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.33690986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -425,7 +425,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44698796" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44666666" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -464,20 +464,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2285" lean-forward="true" selection-start-column="2285" selection-end-column="2285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day44-Article Viewer/article-viewer/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -826,15 +812,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day55-Metaballs/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="2535">
           <caret line="169" column="15" lean-forward="true" selection-end-line="194" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day55-Metaballs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state>
+          <caret selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -842,7 +828,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
-            <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
           </first_editor>
           <second_editor />
         </state>
@@ -850,10 +836,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="1169" column="23" lean-forward="true" selection-start-line="1169" selection-start-column="23" selection-end-line="1169" selection-end-column="23" />
+        <state relative-caret-position="1633">
+          <caret line="1078" lean-forward="true" selection-start-line="1078" selection-end-line="1078" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day56-Weather Card/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="200" column="17" lean-forward="true" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day56-Weather Card/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
