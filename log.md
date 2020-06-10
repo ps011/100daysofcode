@@ -1,3 +1,15 @@
+### Day 56: Wednesday, 10th June 2020 
+
+**Goal**: Create a Weather Card with Raining Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+1. [Weather Card](https://ps011.github.io/100daysofcode/Day55-Weather%20Card/index.html)
+
 ### Day 55: Tuesday, 9th June 2020 
 
 **Goal**: Create a Metaball Animation
