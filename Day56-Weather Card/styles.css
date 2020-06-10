@@ -206,6 +206,7 @@
     height: 15px;
     transform: rotate(90deg);
     animation: drop 2.7s linear infinite;
+    opacity: 0.4;
 }
 
 .medium {
@@ -213,6 +214,7 @@
     height: 12px;
     transform: rotate(90deg);
     animation: drop 1.7s linear infinite;
+    opacity: 0.8;
 }
 
 .small {
