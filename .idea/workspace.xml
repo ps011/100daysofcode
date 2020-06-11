@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day57-Smartwatch Face/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day57-Smartwatch Face/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,34 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Day57-Smartwatch Face/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="856">
-                  <caret line="117" selection-start-line="117" selection-end-line="117" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Day57-Smartwatch Face/styles.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="860">
-                  <caret line="635" selection-start-line="635" selection-end-line="635" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,10 +152,10 @@
         <option value="$PROJECT_DIR$/Day56-Weather Card/inde.html" />
         <option value="$PROJECT_DIR$/Day56-Weather Card/index.html" />
         <option value="$PROJECT_DIR$/Day56-Weather Card/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day57-Smartwatch Face/index.html" />
         <option value="$PROJECT_DIR$/Day57-Smartwatch Face/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/log.md" />
       </list>
     </option>
   </component>
@@ -397,12 +382,12 @@
       <workItem from="1591645141678" duration="197000" />
       <workItem from="1591712677105" duration="2166000" />
       <workItem from="1591797545759" duration="4925000" />
-      <workItem from="1591896152111" duration="1288000" />
+      <workItem from="1591896152111" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255013000" />
+    <option name="totallyTimeSpent" value="255216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -423,7 +408,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.484" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.48333332" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -815,30 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="88" lean-forward="true" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/38/p5.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20309">
           <caret line="2" column="537635" selection-start-line="2" selection-start-column="537635" selection-end-line="2" selection-end-column="537635" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="1176" column="22" selection-start-line="1176" selection-start-column="22" selection-end-line="1176" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,15 +816,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day57-Smartwatch Face/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="245">
+          <caret line="116" column="6" lean-forward="true" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="1210" column="60" lean-forward="true" selection-start-line="1210" selection-start-column="60" selection-end-line="1210" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day57-Smartwatch Face/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="635" selection-start-line="635" selection-end-line="635" />
+        <state relative-caret-position="360">
+          <caret line="614" column="1" lean-forward="true" selection-start-line="614" selection-start-column="1" selection-end-line="614" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

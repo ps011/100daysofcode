@@ -1,3 +1,15 @@
+### Day 57: Thursday, 11th June 2020 
+
+**Goal**: Create a Smartwatch Face
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+1. [Weather Card](https://ps011.github.io/100daysofcode/Day57-Smartwatch%20Face/index.html)
+
 ### Day 56: Wednesday, 10th June 2020 
 
 **Goal**: Create a Weather Card with Raining Animation
@@ -8,7 +20,7 @@
 **Thoughts:** 
 
 **Links to work:** 
-1. [Weather Card](https://ps011.github.io/100daysofcode/Day55-Weather%20Card/index.html)
+1. [Weather Card](https://ps011.github.io/100daysofcode/Day56-Weather%20Card/index.html)
 
 ### Day 55: Tuesday, 9th June 2020 
 
