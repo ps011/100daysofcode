@@ -1,3 +1,15 @@
+### Day 58: Friday, 12th June 2020 
+
+**Goal**: Create a Walking Shoes Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+1. [Walking Shoes](https://ps011.github.io/100daysofcode/Day58-Walking%20Shoes/index.html)
+
 ### Day 57: Thursday, 11th June 2020 
 
 **Goal**: Create a Smartwatch Face
@@ -8,7 +20,7 @@
 **Thoughts:** 
 
 **Links to work:** 
-1. [Weather Card](https://ps011.github.io/100daysofcode/Day57-Smartwatch%20Face/index.html)
+1. [Smartwatch Face](https://ps011.github.io/100daysofcode/Day57-Smartwatch%20Face/index.html)
 
 ### Day 56: Wednesday, 10th June 2020 
 
