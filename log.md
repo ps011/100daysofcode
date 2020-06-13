@@ -1,3 +1,14 @@
+### Day 59: Saturday, 13th June 2020 
+
+**Goal**: Create a Quote with Tooltip Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 58: Friday, 12th June 2020 
 
 **Goal**: Create a Walking Shoes Animation
