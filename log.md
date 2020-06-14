@@ -1,3 +1,15 @@
+### Day 60: Sunday, 14th June 2020 
+
+**Goal**: Create a Profile Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
+
 ### Day 59: Saturday, 13th June 2020 
 
 **Goal**: Create a Quote with Tooltip Animation
