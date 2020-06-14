@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="frame">
+    <div class="center">
+        <div class="card">
+            <img src="https://100dayscss.com/codepen/13-1.jpg" alt="Profile Picture">
+            <button class="fab add">+</button>
+        </div>
+        <div class="card">
+            <img src="https://100dayscss.com/codepen/13-2.jpg" alt="Profile Picture">
+            <button class="fab add">+</button>
+        </div>
+        <div class="card">
+            <img src="https://100dayscss.com/codepen/13-3.jpg" alt="Profile Picture">
+            <button class="fab add">+</button>
+        </div>
+        <div class="card">
+            <img src="https://100dayscss.com/codepen/13-4.jpg" alt="Profile Picture">
+            <button class="fab add">+</button>
+        </div>
+    </div>
+    <div class="details">
+        <div class="cover">
+            <img src="https://100dayscss.com/codepen/13-1-header.jpg" alt="details">
+            <button class="fab close">x</button>
+        </div>
+        <div class="stats">
+            <img src="https://100dayscss.com/codepen/13-1.jpg" class="dp"/>
+            <span class="name">Prasheel Soni</span>
+            <button class="fab call"><span class='fa fa-phone'></span></button>
+            <button class="fab message"><span class='fa fa-comment'></span></button>
+            <button class="fab like"><span class='fa fa-heart'></span></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const adds = document.querySelectorAll('.add');
+    const close = document.querySelector('.close');
+    const details = document.querySelector('.details');
+    adds.forEach(add => {
+        add.addEventListener('click', () => {
+            details.classList.add('active');
+        });
+    });
+    close.addEventListener('click', () => {
+        details.classList.remove('active')
+    })
+</script>
+
+</body>
+</html>
