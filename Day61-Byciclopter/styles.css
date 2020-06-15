@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #4B4841;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+    overflow: hidden;
+
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.front, .back {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.front img {
+    animation: bike 0.8s infinite;
+}
+
+.back img {
+    animation: helicopter 0.8s infinite;
+}
+
+.front {
+    background: #FFCE4E;
+}
+
+.center:hover .card{
+    transform: rotateX(180deg);
+}
+
+.front:hover .back{
+    transform: rotateX(0);
+}
+
+.back {
+    transform: rotateX(180deg);
+    background: #FFCE4E;
+}
+
+.street {
+    position: absolute;
+    top: 135px;
+    width: 20px;
+    height: 4px;
+    border-radius: 15px;
+    background: #4B4841;
+    animation: street 1s linear infinite;
+    backface-visibility: hidden;
+}
+
+.street-1 {
+    width: 4px;
+    left: 140px;
+}
+.street-2 {
+    width: 10px;
+    left: 146px;
+}
+.street-3 {
+    width: 20px;
+    left: 158px;
+}
+.street-4 {
+    width: 15px;
+    left: 190px;
+}
+.street-5 {
+    width: 8px;
+    left: 210px;
+}
+.street-6 {
+    width: 20px;
+    left: 260px;
+}
+
+.street-7 {
+    width: 4px;
+    left: 270px;
+}
+.street-8 {
+    width: 10px;
+    left: 290px;
+}
+.street-9 {
+    width: 20px;
+    left: 310px;
+}
+.street-10 {
+    width: 15px;
+    left: 330px;
+}
+.street-11 {
+    width: 8px;
+    left: 350px;
+}
+.street-12 {
+    width: 20px;
+    left: 370px;
+}
+
+
+.cloud {
+    position: absolute;
+    top: 135px;
+    width: 20px;
+    height: 4px;
+    border-radius: 15px;
+    background: #4B4841;
+    animation: cloud 1s linear infinite;
+    backface-visibility: hidden;
+}
+
+.cloud-1 {
+    width: 4px;
+    top: 135px;
+    left: 140px;
+}
+.cloud-2 {
+    width: 10px;
+    top: 100px;
+    left: 146px;
+}
+.cloud-3 {
+    width: 20px;
+    top: 70px;
+    left: 158px;
+}
+.cloud-4 {
+    top: 120px;
+    width: 15px;
+    left: 190px;
+}
+.cloud-5 {
+    top: 40px;
+    width: 8px;
+    left: 210px;
+}
+.cloud-6 {
+    top: 150px;
+    width: 20px;
+    left: 260px;
+}
+
+.cloud-7 {
+    top: 10px;
+    width: 4px;
+    left: 270px;
+}
+.cloud-8 {
+    top: 120px;
+    width: 10px;
+    left: 290px;
+}
+.cloud-9 {
+    top: 175px;
+    width: 20px;
+    left: 310px;
+}
+.cloud-10 {
+    top: 70px;
+    width: 15px;
+    left: 330px;
+}
+.cloud-11 {
+    top: 190px;
+    width: 8px;
+    left: 350px;
+}
+.cloud-12 {
+    top: 125px;
+    width: 20px;
+    left: 370px;
+}
+
+@keyframes bike {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(1.03);
+    }
+}
+
+@keyframes street {
+    0% {
+        transform: translate3d(0, 0, 0) scaleX(1);
+    }
+    100% {
+        transform: translate3d(-400px,0,0) scaleX(.8);
+    }
+}
+
+@keyframes helicopter {
+    0%, 100% {
+        transform: translate3d(0,-5px,0);
+    }
+    50% {
+        transform: translate3d(0,5px,0);
+    }
+}
+
+@keyframes cloud {
+    0% {
+        transform: translate3d(0, 0, 0) scaleX(1);
+    }
+    100% {
+        transform: translate3d(-400px,0,0) scaleX(.8);
+    }
+}
+
