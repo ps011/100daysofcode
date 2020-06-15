@@ -1,3 +1,14 @@
+### Day 61: Monday, 15th June 2020 
+
+**Goal**: Create a Flip card animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 60: Sunday, 14th June 2020 
 
 **Goal**: Create a Profile Animation
