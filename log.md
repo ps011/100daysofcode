@@ -1,3 +1,14 @@
+### Day 62: Tuesday, 16th June 2020 
+
+**Goal**: Create a Blobby animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 61: Monday, 15th June 2020 
 
 **Goal**: Create a Flip card animation
