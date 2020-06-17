@@ -1,0 +1,67 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+    background: #46A6DA;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sun {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #FFD93C;
+    top: 10%;
+    left: 10%;
+}
+
+.cloud-big {
+    position: absolute;
+    top: 35%;
+    left: -200px;
+    animation: rtl 40s linear;
+}
+
+.cloud-medium {
+    position: absolute;
+    top: 25%;
+    left: -50px;
+    animation: ltr 30s linear;
+}
+
+.cloud-small {
+    position: absolute;
+    top: 15%;
+    left: -100px;
+    animation: rtl 20s linear;
+}
+
+
+@keyframes ltr {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(400px);
+    }
+}
+
+
+@keyframes rtl {
+    to {
+        transform: translateX(-100px);
+    }
+    from {
+        transform: translateX(400px);
+    }
+}
