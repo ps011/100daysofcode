@@ -1,3 +1,14 @@
+### Day 63: Wednesday, 17th June 2020 
+
+**Goal**: Create a Sunny Day animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 62: Tuesday, 16th June 2020 
 
 **Goal**: Create a Blobby animation

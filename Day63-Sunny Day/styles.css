@@ -29,21 +29,21 @@
     position: absolute;
     top: 35%;
     left: -200px;
-    animation: rtl 40s linear;
+    animation: rtl 40s linear infinite;
 }
 
 .cloud-medium {
     position: absolute;
     top: 25%;
     left: -50px;
-    animation: ltr 30s linear;
+    animation: ltr 30s linear infinite;
 }
 
 .cloud-small {
     position: absolute;
     top: 15%;
     left: -100px;
-    animation: rtl 20s linear;
+    animation: rtl 20s linear infinite;
 }
 
 
