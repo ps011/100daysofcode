@@ -1,3 +1,14 @@
+### Day 64: Thursday, 18th June 2020 
+
+**Goal**: Create a Ellipses animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 63: Wednesday, 17th June 2020 
 
 **Goal**: Create a Sunny Day animation
