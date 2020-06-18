@@ -1,0 +1,325 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+    background: #1F91DD;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ellipse {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+}
+
+.form {
+        animation: form 4s alternate infinite;
+}
+
+.ellipse-1 {
+    animation: ellipse-1 4s alternate infinite;
+}
+
+.ellipse-2 {
+    animation: ellipse-2 4s alternate infinite;
+}
+
+.ellipse-3 {
+    animation: ellipse-3 4s alternate infinite;
+}
+
+.ellipse-4 {
+    animation: ellipse-4 4s alternate infinite;
+}
+
+.ellipse-5 {
+    animation: ellipse-5 4s alternate infinite;
+}
+
+.ellipse-6 {
+    animation: ellipse-6 4s alternate infinite;
+}
+
+.ellipse-7 {
+    animation: ellipse-7 4s alternate infinite;
+}
+
+.ellipse-8 {
+    animation: ellipse-8 4s alternate infinite;
+}
+
+.ellipse-9 {
+    animation: ellipse-9 4s alternate infinite;
+}
+
+.ellipse-10 {
+    animation: ellipse-10 4s alternate infinite;
+}
+
+.ellipse-11 {
+    animation: ellipse-11 4s alternate infinite;
+}
+
+.ellipse-12 {
+    animation: ellipse-12 4s alternate infinite;
+}
+
+.ellipse-13 {
+    animation: ellipse-13 4s alternate infinite;
+}
+
+.ellipse-14 {
+    animation: ellipse-14 4s alternate infinite;
+}
+
+.ellipse-15 {
+    animation: ellipse-15 4s alternate infinite;
+}
+
+.ellipse-16 {
+    animation: ellipse-16 4s alternate infinite;
+}
+
+.ellipse-17 {
+    animation: ellipse-17 4s alternate infinite;
+}
+
+.ellipse-18 {
+    animation: ellipse-18 4s alternate infinite;
+}
+
+@keyframes form {
+    0%,10% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(75px);
+    }
+}
+
+
+@keyframes ellipse-1 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(350deg);
+    }
+}
+
+@keyframes ellipse-2 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(340deg);
+    }
+}
+
+@keyframes ellipse-3 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(330deg);
+    }
+}
+
+@keyframes ellipse-4 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(320deg);
+    }
+}
+
+@keyframes ellipse-5 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(310deg);
+    }
+}
+
+@keyframes ellipse-6 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(300deg);
+    }
+}
+
+@keyframes ellipse-7 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(290deg);
+    }
+}
+
+@keyframes ellipse-8 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(280deg);
+    }
+}
+
+@keyframes ellipse-9 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes ellipse-10 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(260deg);
+    }
+}
+
+@keyframes ellipse-11 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(250deg);
+    }
+}
+
+@keyframes ellipse-12 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(240deg);
+    }
+}
+
+@keyframes ellipse-13 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(230deg);
+    }
+}
+
+@keyframes ellipse-14 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(220deg);
+    }
+}
+
+@keyframes ellipse-15 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(210deg);
+    }
+}
+
+@keyframes ellipse-16 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(200deg);
+    }
+}
+
+@keyframes ellipse-17 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(190deg);
+    }
+}
+
+@keyframes ellipse-18 {
+    from {
+        border-radius: 0;
+        transform: rotate(0);
+    }
+    to {
+        border-radius: 50%;
+        width: 100px;
+        transform: rotate(180deg);
+    }
+}

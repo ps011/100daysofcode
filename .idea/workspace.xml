@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Day63-Sunny Day/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Day63-Sunny Day/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day64-Ellipses Animation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day64-Ellipses Animation/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,34 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Day64-Ellipses Animation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/Day64-Ellipses Animation/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="1336" column="54" lean-forward="true" selection-start-line="1336" selection-start-column="54" selection-end-line="1336" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day63-Sunny Day/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="312">
+              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -63,8 +48,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;Apach</find>
-      <find>&quot;Apaches&quot;</find>
       <find>config</find>
       <find>var</find>
       <find>this.chain</find>
@@ -93,6 +76,8 @@
       <find>street</find>
       <find>rotateX</find>
       <find>rotate(22.5deg)</find>
+      <find>deg)</find>
+      <find>3s</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;form-group&quot;&gt;</replace>
@@ -121,6 +106,8 @@
       <replace>cloud</replace>
       <replace>rotateY</replace>
       <replace>rotate(-22.5deg)</replace>
+      <replace>deg) translateX(75px)</replace>
+      <replace>4s</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -129,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day46-Admin Panel/admin-panel/build/index.html" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.ejs" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css/App.css" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js" />
@@ -180,6 +165,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Day63-Sunny Day/styles.css" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/Day64-Ellipses Animation/styles.css" />
+        <option value="$PROJECT_DIR$/Day64-Ellipses Animation/index.html" />
       </list>
     </option>
   </component>
@@ -211,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,11 +211,15 @@
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
               <item name="Day63-Sunny Day" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day64-Ellipses Animation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +230,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day63-Sunny Day" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day64-Ellipses Animation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -254,19 +246,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day64-Ellipses Animation" />
+      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/Day38-Live Scratchpad" />
+      <recent name="$PROJECT_DIR$/Day35-Excel Processor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css" />
       <recent name="$PROJECT_DIR$/Day30-CryptoBot" />
       <recent name="$PROJECT_DIR$/Day11-Static Page Server" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/Day38-Live Scratchpad" />
-      <recent name="$PROJECT_DIR$/Day35-Excel Processor" />
-      <recent name="$PROJECT_DIR$/Day29-PassportJS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,18 +410,19 @@
       <workItem from="1592249423580" duration="76000" />
       <workItem from="1592317254556" duration="2482000" />
       <workItem from="1592339266216" duration="20000" />
-      <workItem from="1592405775058" duration="1327000" />
+      <workItem from="1592405775058" duration="1483000" />
+      <workItem from="1592494143104" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272881000" />
+    <option name="totallyTimeSpent" value="274683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33599204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33599204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -483,20 +476,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -839,10 +818,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="1336" column="54" lean-forward="true" selection-start-line="1336" selection-start-column="54" selection-end-line="1336" selection-end-column="54" />
+        <state relative-caret-position="407">
+          <caret line="1336" column="54" selection-start-line="1336" selection-start-column="54" selection-end-line="1336" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -851,18 +840,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day63-Sunny Day/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="407">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Day64-Ellipses Animation/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day64-Ellipses Animation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
