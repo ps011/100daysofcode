@@ -1,3 +1,14 @@
+### Day 65: Friday, 19th June 2020 
+
+**Goal**: Create a Sparkle Checkbox
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:** 
+
+**Links to work:** 
+
 ### Day 64: Thursday, 18th June 2020 
 
 **Goal**: Create a Ellipses animation
