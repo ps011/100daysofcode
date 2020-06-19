@@ -1,3 +1,17 @@
+  GNU nano 2.0.6                                File: log.md                                                                      
+
+### Day 66: Friday, 20th June 2020
+
+**Goal**: Create a Parasol Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+
 ### Day 65: Friday, 19th June 2020 
 
 **Goal**: Create a Sparkle Checkbox
