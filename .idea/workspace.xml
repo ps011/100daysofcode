@@ -435,18 +435,17 @@
       <workItem from="1592339266216" duration="20000" />
       <workItem from="1592405775058" duration="1483000" />
       <workItem from="1592494143104" duration="1846000" />
-      <workItem from="1592555928324" duration="434000" />
+      <workItem from="1592555928324" duration="482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275317000" />
+    <option name="totallyTimeSpent" value="275365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -461,7 +460,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.52048194" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.52048194" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
