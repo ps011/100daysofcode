@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day65-Sparkle Checkbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day65-Sparkle Checkbox/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,26 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day65-Sparkle Checkbox/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day65-Sparkle Checkbox/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="1357" column="63" lean-forward="true" selection-start-line="1357" selection-start-column="63" selection-end-line="1357" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="753">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
             </state>
           </provider>
         </entry>
@@ -46,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -121,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/models/Expense.js" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css/App.css" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/routes.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/index.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc" />
@@ -172,6 +165,8 @@
         <option value="$PROJECT_DIR$/Day64-Ellipses Animation/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/log.md" />
+        <option value="$PROJECT_DIR$/Day65-Sparkle Checkbox/index.html" />
+        <option value="$PROJECT_DIR$/Day65-Sparkle Checkbox/styles.css" />
       </list>
     </option>
   </component>
@@ -211,6 +206,16 @@
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day64-Ellipses Animation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Day65-Sparkle Checkbox" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +230,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day64-Ellipses Animation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day65-Sparkle Checkbox" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -241,19 +246,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Day64-Ellipses Animation" />
-      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/Day38-Live Scratchpad" />
-      <recent name="$PROJECT_DIR$/Day35-Excel Processor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css" />
       <recent name="$PROJECT_DIR$/Day30-CryptoBot" />
       <recent name="$PROJECT_DIR$/Day11-Static Page Server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day65-Sparkle Checkbox" />
+      <recent name="$PROJECT_DIR$/Day64-Ellipses Animation" />
+      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/Day38-Live Scratchpad" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,18 +411,19 @@
       <workItem from="1592317254556" duration="2482000" />
       <workItem from="1592339266216" duration="20000" />
       <workItem from="1592405775058" duration="1483000" />
-      <workItem from="1592494143104" duration="1775000" />
+      <workItem from="1592494143104" duration="1846000" />
+      <workItem from="1592555928324" duration="173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274812000" />
+    <option name="totallyTimeSpent" value="275056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2048" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33599204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33547926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -432,7 +438,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.52079207" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52048194" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -471,23 +477,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-434">
-          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -834,23 +823,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="318">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="1357" column="63" lean-forward="true" selection-start-line="1357" selection-start-column="63" selection-end-line="1357" selection-end-column="63" />
+        <state relative-caret-position="513">
+          <caret line="1357" column="63" selection-start-line="1357" selection-start-column="63" selection-end-line="1357" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Day65-Sparkle Checkbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day65-Sparkle Checkbox/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>
