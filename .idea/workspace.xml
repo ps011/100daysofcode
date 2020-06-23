@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day69-Calendar Days/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day69-Calendar Days/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day70-Morse Code Keyboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day70-Morse Code Keyboard/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day69-Calendar Days/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="261">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day70-Morse Code Keyboard/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day70-Morse Code Keyboard/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="414" selection-start-line="414" selection-end-line="414" />
             </state>
           </provider>
         </entry>
@@ -115,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js" />
         <option value="$PROJECT_DIR$/Day29-PassportJS/config.js" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/package.json" />
         <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/server/server.js" />
@@ -166,6 +183,8 @@
         <option value="$PROJECT_DIR$/log.md" />
         <option value="$PROJECT_DIR$/Day69-Calendar Days/index.html" />
         <option value="$PROJECT_DIR$/Day69-Calendar Days/styles.css" />
+        <option value="$PROJECT_DIR$/Day70-Morse Code Keyboard/index.html" />
+        <option value="$PROJECT_DIR$/Day70-Morse Code Keyboard/styles.css" />
       </list>
     </option>
   </component>
@@ -207,7 +226,7 @@
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day69-Calendar Days" type="462c0819:PsiDirectoryNode" />
+              <item name="Day70-Morse Code Keyboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,12 +426,12 @@
       <workItem from="1592405775058" duration="1483000" />
       <workItem from="1592494143104" duration="1846000" />
       <workItem from="1592555928324" duration="482000" />
-      <workItem from="1592916924903" duration="195000" />
+      <workItem from="1592916924903" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275560000" />
+    <option name="totallyTimeSpent" value="275715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -433,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52048194" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.52048194" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -472,20 +491,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day47-Expense Manager/expense-manager/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day01-Weather Location Info App/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -841,8 +846,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day69-Calendar Days/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="261">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day70-Morse Code Keyboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day70-Morse Code Keyboard/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
         </state>
       </provider>
     </entry>
