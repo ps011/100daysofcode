@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day68-Eye/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day68-Eye/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day68-Recording/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Day67-Recording/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day68-Recording/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Day67-Recording/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,32 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="927">
-              <caret line="1481" column="61" lean-forward="true" selection-start-line="1481" selection-start-column="61" selection-end-line="1481" selection-end-column="61" />
+            <state relative-caret-position="660">
+              <caret line="1462" column="58" lean-forward="true" selection-start-line="1462" selection-start-column="58" selection-end-line="1462" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day68-Eye/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day68-Eye/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="162" selection-start-line="162" selection-end-line="162" />
             </state>
           </provider>
         </entry>
@@ -179,9 +156,9 @@
         <option value="$PROJECT_DIR$/Day69-Calendar Days/styles.css" />
         <option value="$PROJECT_DIR$/Day70-Morse Code Keyboard/index.html" />
         <option value="$PROJECT_DIR$/Day70-Morse Code Keyboard/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Day68-Eye/index.html" />
         <option value="$PROJECT_DIR$/Day68-Eye/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -219,11 +196,6 @@
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day68-Eye" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,12 +395,12 @@
       <workItem from="1592405775058" duration="1483000" />
       <workItem from="1592494143104" duration="1846000" />
       <workItem from="1592555928324" duration="482000" />
-      <workItem from="1592916924903" duration="1017000" />
+      <workItem from="1592916924903" duration="1648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276382000" />
+    <option name="totallyTimeSpent" value="277013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -838,13 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Day68-Eye/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="1481" column="61" lean-forward="true" selection-start-line="1481" selection-start-column="61" selection-end-line="1481" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -855,10 +824,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day68-Eye/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="660">
+          <caret line="1462" column="58" lean-forward="true" selection-start-line="1462" selection-start-column="58" selection-end-line="1462" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
