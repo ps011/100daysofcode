@@ -1,4 +1,46 @@
-  GNU nano 2.0.6                                File: log.md                                                                      
+### Day 70: Tuesday, 24th June 2020
+
+**Goal**: Create a Morse Code Keyboard
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+### Day 69: Monday, 23rd June 2020
+
+**Goal**: Create a Calendar
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+### Day 68: Sunday, 22nd June 2020
+
+**Goal**: Create a Eye Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+### Day 67: Saturday, 21st June 2020
+
+**Goal**: Create a Recording Icon
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
 
 ### Day 66: Friday, 20th June 2020
 
