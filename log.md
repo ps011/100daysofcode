@@ -1,4 +1,16 @@
-### Day 70: Tuesday, 24th June 2020
+### Day 71: Thursday, 25th June 2020
+
+**Goal**: Create a Rings Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+
+### Day 70: Wednesday, 24th June 2020
 
 **Goal**: Create a Morse Code Keyboard
 
@@ -9,7 +21,7 @@
 
 **Links to work:**
 
-### Day 69: Monday, 23rd June 2020
+### Day 69: Tuesday, 23rd June 2020
 
 **Goal**: Create a Calendar
 
@@ -20,7 +32,7 @@
 
 **Links to work:**
 
-### Day 68: Sunday, 22nd June 2020
+### Day 68: Monday, 22nd June 2020
 
 **Goal**: Create a Eye Animation
 
@@ -31,7 +43,7 @@
 
 **Links to work:**
 
-### Day 67: Saturday, 21st June 2020
+### Day 67: Sunday, 21st June 2020
 
 **Goal**: Create a Recording Icon
 
@@ -42,7 +54,7 @@
 
 **Links to work:**
 
-### Day 66: Friday, 20th June 2020
+### Day 66: Saturday, 20th June 2020
 
 **Goal**: Create a Parasol Animation
 
