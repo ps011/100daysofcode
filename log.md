@@ -1,3 +1,14 @@
+### Day 72: Friday, 26th June 2020
+
+**Goal**: Create a Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 71: Thursday, 25th June 2020
 
 **Goal**: Create a Rings Animation
