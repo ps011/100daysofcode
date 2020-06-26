@@ -1,6 +1,6 @@
 ### Day 72: Friday, 26th June 2020
 
-**Goal**: Create a Animation
+**Goal**: Create a Hello Animation
 
 
 **Today's Progress**: Created the page and deployed to heroku
