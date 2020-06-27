@@ -1,3 +1,14 @@
+### Day 73: Saturday, 27th June 2020
+
+**Goal**: Create a Pagination
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 72: Friday, 26th June 2020
 
 **Goal**: Create a Hello Animation

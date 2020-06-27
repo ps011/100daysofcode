@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068e434d-e1dc-47eb-a518-ee8f068c1f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day72-Hello/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day72-Hello/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73-Pagination/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day73-Pagination/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="1523" column="43" lean-forward="true" selection-start-line="1523" selection-start-column="43" selection-end-line="1523" selection-end-column="43" />
+              <caret line="1544" column="48" lean-forward="true" selection-start-line="1544" selection-start-column="48" selection-end-line="1544" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -35,16 +34,34 @@
         <entry file="file://$PROJECT_DIR$/Day72-Hello/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <caret line="18" column="6" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day73-Pagination/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day73-Pagination/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day72-Hello/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="690">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -140,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/Update.js" />
-        <option value="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components/App.js" />
         <option value="$PROJECT_DIR$/Day48-CSS Animation/index.html" />
         <option value="$PROJECT_DIR$/Day48-CSS Animation/styles.css" />
         <option value="$PROJECT_DIR$/Day49-Hamburger Animation/index.html" />
@@ -188,9 +203,11 @@
         <option value="$PROJECT_DIR$/Day71-The Rings/index.html" />
         <option value="$PROJECT_DIR$/Day71-The Rings/styles.css" />
         <option value="$PROJECT_DIR$/log.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Day72-Hello/index.html" />
         <option value="$PROJECT_DIR$/Day72-Hello/styles.css" />
+        <option value="$PROJECT_DIR$/Day72-Hello/index.html" />
+        <option value="$PROJECT_DIR$/Day73-Pagination/styles.css" />
+        <option value="$PROJECT_DIR$/Day73-Pagination/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -222,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,18 +250,17 @@
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day71-The Rings" type="462c0819:PsiDirectoryNode" />
+              <item name="Day72-Hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="100daysofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="100daysofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Day72-Hello" type="462c0819:PsiDirectoryNode" />
+              <item name="Day73-Pagination" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +271,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Day44-Article Viewer/article-viewer/build/index.html" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day72-Hello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day73-Pagination" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -270,19 +287,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Day72-Hello" />
-      <recent name="$PROJECT_DIR$/Day65-Sparkle Checkbox" />
-      <recent name="$PROJECT_DIR$/Day64-Ellipses Animation" />
-      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/components" />
       <recent name="$PROJECT_DIR$/Day47-Expense Manager/expense-manager/client/css" />
       <recent name="$PROJECT_DIR$/Day30-CryptoBot" />
       <recent name="$PROJECT_DIR$/Day11-Static Page Server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day73-Pagination" />
+      <recent name="$PROJECT_DIR$/Day72-Hello" />
+      <recent name="$PROJECT_DIR$/Day65-Sparkle Checkbox" />
+      <recent name="$PROJECT_DIR$/Day64-Ellipses Animation" />
+      <recent name="$PROJECT_DIR$/Day63-Sunny Day" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,18 +456,19 @@
       <workItem from="1592555928324" duration="482000" />
       <workItem from="1592916924903" duration="1979000" />
       <workItem from="1593010114919" duration="1226000" />
-      <workItem from="1593174468866" duration="167000" />
+      <workItem from="1593174468866" duration="257000" />
+      <workItem from="1593279245951" duration="156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278737000" />
+    <option name="totallyTimeSpent" value="278983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34549356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -504,21 +522,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day51-Ripple Animation/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day14-User API/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -840,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day71-The Rings/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day71-The Rings/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -854,27 +850,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Day72-Hello/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="1523" column="43" lean-forward="true" selection-start-line="1523" selection-start-column="43" selection-end-line="1523" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day71-The Rings/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day72-Hello/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <caret line="18" column="6" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day72-Hello/styles.css">
+    <entry file="file://$PROJECT_DIR$/Day73-Pagination/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="321">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day73-Pagination/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="1544" column="48" lean-forward="true" selection-start-line="1544" selection-start-column="48" selection-end-line="1544" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
