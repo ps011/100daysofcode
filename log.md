@@ -1,3 +1,14 @@
+### Day 74: Sunday, 28th June 2020
+
+**Goal**: Create a Spinning Discs Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 73: Saturday, 27th June 2020
 
 **Goal**: Create a Pagination
