@@ -1,3 +1,14 @@
+### Day 75: Monday, 29th June 2020
+
+**Goal**: Create a Password Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 74: Sunday, 28th June 2020
 
 **Goal**: Create a Spinning Discs Animation
