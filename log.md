@@ -1,3 +1,14 @@
+### Day 76: Tuesday, 30th June 2020
+
+**Goal**: Create a Motion Blur Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 75: Monday, 29th June 2020
 
 **Goal**: Create a Password Animation
