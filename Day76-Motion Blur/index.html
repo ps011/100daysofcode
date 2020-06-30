@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://100dayscss.com/codepen/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="frame">
+    <div class="center">
+        <div class="hiddenKey">
+            <div class="inputWrapper">
+                <input type="text" class="input" placeholder='Enter "password"'/>
+                <div class="backSide">Secret Key</div>
+            </div>
+            <div class="keyWrapper">MD5-SU3-CX8</div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(".input").on("keyup change blur paste cut click", function() {
+        var input = $(this).val();
+        if (input == "password" || input == "Password") {
+            $('.inputWrapper').addClass('valid');
+            $(this).blur();
+        } else {
+            $('.inputWrapper').removeClass('valid');
+        }
+    });
+</script>
+</html>
