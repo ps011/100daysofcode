@@ -1,3 +1,14 @@
+### Day 77: Wednesday, 1st July 2020
+
+**Goal**: Create a Hover shadow Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 76: Tuesday, 30th June 2020
 
 **Goal**: Create a Motion Blur Animation
