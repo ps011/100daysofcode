@@ -1,3 +1,14 @@
+### Day 78: Thursday, 2nd July 2020
+
+**Goal**: Create a Dancing Lines Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 77: Wednesday, 1st July 2020
 
 **Goal**: Create a Hover shadow Animation
