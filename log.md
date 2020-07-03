@@ -1,3 +1,14 @@
+### Day 79: Friday, 3rd July 2020
+
+**Goal**: Create a Shoting Stars Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 78: Thursday, 2nd July 2020
 
 **Goal**: Create a Dancing Lines Animation
