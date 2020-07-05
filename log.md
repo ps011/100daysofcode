@@ -1,3 +1,14 @@
+### Day 79: Saturday, 4th July 2020
+
+**Goal**: Create a Twisted Pyramid Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 79: Friday, 3rd July 2020
 
 **Goal**: Create a Shoting Stars Animation
