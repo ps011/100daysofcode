@@ -1,4 +1,26 @@
-### Day 79: Saturday, 4th July 2020
+### Day 82: Monday, 6th July 2020
+
+**Goal**: Create a Warp Zone
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+### Day 81: Sunday, 5th July 2020
+
+**Goal**: Create a Send Button
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
+### Day 80: Saturday, 4th July 2020
 
 **Goal**: Create a Twisted Pyramid Animation
 
