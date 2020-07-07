@@ -1,3 +1,14 @@
+### Day 83: Tuesday, 7th July 2020
+
+**Goal**: Create a Book
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 82: Monday, 6th July 2020
 
 **Goal**: Create a Warp Zone
