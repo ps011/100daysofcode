@@ -1,3 +1,14 @@
+### Day 84: Wednesday, 8th July 2020
+
+**Goal**: Create animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 83: Tuesday, 7th July 2020
 
 **Goal**: Create a Book
