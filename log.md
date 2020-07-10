@@ -1,3 +1,14 @@
+### Day 86: Friday, 10th July 2020
+
+**Goal**: Create Ruby Diamond
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 85: Thursday, 9th July 2020
 
 **Goal**: Create Newton's Cradle
