@@ -1,3 +1,14 @@
+### Day 87: Saturday, 11th July 2020
+
+**Goal**: Create a Candle
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 86: Friday, 10th July 2020
 
 **Goal**: Create Ruby Diamond
