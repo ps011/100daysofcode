@@ -1,3 +1,14 @@
+### Day 88: Sunday, 12th July 2020
+
+**Goal**: Create a Animated Pattern
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 87: Saturday, 11th July 2020
 
 **Goal**: Create a Candle
