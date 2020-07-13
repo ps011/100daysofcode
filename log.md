@@ -1,3 +1,14 @@
+### Day 89: Monday, 13th July 2020
+
+**Goal**: Create a Flower
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 88: Sunday, 12th July 2020
 
 **Goal**: Create a Animated Pattern
