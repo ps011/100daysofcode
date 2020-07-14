@@ -1,3 +1,14 @@
+### Day 90: Tuesday, 14th July 2020
+
+**Goal**: Create a 3D Sphere
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 89: Monday, 13th July 2020
 
 **Goal**: Create a Flower
