@@ -1,3 +1,14 @@
+### Day 91: Wednesday, 15th July 2020
+
+**Goal**: Create a Dancing Points
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 90: Tuesday, 14th July 2020
 
 **Goal**: Create a 3D Sphere
