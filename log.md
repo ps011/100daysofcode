@@ -1,3 +1,14 @@
+### Day 92: Thursday, 16th July 2020
+
+**Goal**: Create a Lock
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 91: Wednesday, 15th July 2020
 
 **Goal**: Create a Dancing Points
