@@ -1,3 +1,14 @@
+### Day 93: Friday, 17th July 2020
+
+**Goal**: Create a Tree
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 92: Thursday, 16th July 2020
 
 **Goal**: Create a Lock
