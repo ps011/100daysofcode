@@ -1,3 +1,14 @@
+### Day 95: Sunday, 19th July 2020
+
+**Goal**: Create a Jumping Square
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 94: Saturday, 18th July 2020
 
 **Goal**: Create a Pig
