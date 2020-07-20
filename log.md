@@ -1,3 +1,14 @@
+### Day 96: Monday, 20th July 2020
+
+**Goal**: Create a Puppet
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 95: Sunday, 19th July 2020
 
 **Goal**: Create a Jumping Square
