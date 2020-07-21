@@ -1,3 +1,14 @@
+### Day 97: Tuesday, 21st July 2020
+
+**Goal**: Create a Icon Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 96: Monday, 20th July 2020
 
 **Goal**: Create a Puppet
