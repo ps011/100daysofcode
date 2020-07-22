@@ -1,3 +1,14 @@
+### Day 98: Wednesday, 22nd July 2020
+
+**Goal**: Create a Plopp
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 97: Tuesday, 21st July 2020
 
 **Goal**: Create a Icon Animation
