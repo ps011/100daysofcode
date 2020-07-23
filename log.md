@@ -1,3 +1,14 @@
+### Day 99: Thursday, 23rd July 2020
+
+**Goal**: Create a Mandala
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 98: Wednesday, 22nd July 2020
 
 **Goal**: Create a Plopp
