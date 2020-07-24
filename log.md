@@ -1,3 +1,14 @@
+### Day 100: Friday, 24th July 2020
+
+**Goal**: Create a The END Animation
+
+
+**Today's Progress**: Created the page and deployed to heroku
+
+**Thoughts:**
+
+**Links to work:**
+
 ### Day 99: Thursday, 23rd July 2020
 
 **Goal**: Create a Mandala
