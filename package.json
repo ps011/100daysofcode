@@ -33,7 +33,7 @@
     "lodb": "^0.5.2",
     "mongoose": "^5.9.10",
     "morgan": "~1.9.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "pdfkit": "^0.11.0",
