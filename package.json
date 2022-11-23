@@ -38,7 +38,7 @@
     "passport-jwt": "^4.0.0",
     "pdfkit": "^0.11.0",
     "request": "^2.88.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "stripe": "^8.55.0",
     "twilio": "^3.43.1"
   }
