@@ -29,7 +29,7 @@
     "graphql": "^15.0.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodb": "^0.5.2",
     "mongoose": "^5.9.10",
     "morgan": "~1.9.0",
